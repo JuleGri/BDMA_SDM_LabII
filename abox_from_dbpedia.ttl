@@ -1,0 +1,102 @@
+@prefix ex: <http://example.org/research/> .
+
+<http://dbpedia.org/resource/Aage_Bohr> a ex:Author .
+
+<http://dbpedia.org/resource/Alain_Connes> a ex:Author .
+
+<http://dbpedia.org/resource/Alan_Kay> a ex:Author .
+
+<http://dbpedia.org/resource/Alan_Turing> a ex:Author .
+
+<http://dbpedia.org/resource/Albert_Einstein> a ex:Author .
+
+<http://dbpedia.org/resource/Albert_Schweitzer> a ex:Author .
+
+<http://dbpedia.org/resource/Alessandro_Volta> a ex:Author .
+
+<http://dbpedia.org/resource/Alexander_Fleming> a ex:Author .
+
+<http://dbpedia.org/resource/Alexander_Grothendieck> a ex:Author .
+
+<http://dbpedia.org/resource/Alexis_Carrel> a ex:Author .
+
+<http://dbpedia.org/resource/Alfons_Maria_Jakob> a ex:Author .
+
+<http://dbpedia.org/resource/Alfred_Russel_Wallace> a ex:Author .
+
+<http://dbpedia.org/resource/Alhazen> a ex:Author .
+
+<http://dbpedia.org/resource/Alois_Alzheimer> a ex:Author .
+
+<http://dbpedia.org/resource/Anders_Celsius> a ex:Author .
+
+<http://dbpedia.org/resource/Andr%C3%A9-Marie_Amp%C3%A8re> a ex:Author .
+
+<http://dbpedia.org/resource/Andr%C3%A9_Weil> a ex:Author .
+
+<http://dbpedia.org/resource/Andrei_Sakharov> a ex:Author .
+
+<http://dbpedia.org/resource/Andrew_S._Tanenbaum> a ex:Author .
+
+<http://dbpedia.org/resource/Andrew_Wiles> a ex:Author .
+
+<http://dbpedia.org/resource/Andrey_Markov> a ex:Author .
+
+<http://dbpedia.org/resource/Antoine_Lavoisier> a ex:Author .
+
+<http://dbpedia.org/resource/Antoine_Thomson_d'Abbadie> a ex:Author .
+
+<http://dbpedia.org/resource/Archimedes> a ex:Author .
+
+<http://dbpedia.org/resource/Arthur_Aikin> a ex:Author .
+
+<http://dbpedia.org/resource/Arthur_Eddington> a ex:Author .
+
+<http://dbpedia.org/resource/Arthur_Jensen> a ex:Author .
+
+<http://dbpedia.org/resource/Atle_Selberg> a ex:Author .
+
+<http://dbpedia.org/resource/Augustin-Jean_Fresnel> a ex:Author .
+
+<http://dbpedia.org/resource/Augustin-Louis_Cauchy> a ex:Author .
+
+<http://dbpedia.org/resource/B._F._Skinner> a ex:Author .
+
+<http://dbpedia.org/resource/Benjamin_D._Santer> a ex:Author .
+
+<http://dbpedia.org/resource/Benjamin_Lee_Whorf> a ex:Author .
+
+<http://dbpedia.org/resource/Benoit_Mandelbrot> a ex:Author .
+
+<http://dbpedia.org/resource/Bill_Joy> a ex:Author .
+
+<http://dbpedia.org/resource/Bjarne_Stroustrup> a ex:Author .
+
+<http://dbpedia.org/resource/Brian_Kernighan> a ex:Author .
+
+<http://dbpedia.org/resource/Carl_Friedrich_Gauss> a ex:Author .
+
+<http://dbpedia.org/resource/Carl_Linnaeus> a ex:Author .
+
+<http://dbpedia.org/resource/Carl_Sagan> a ex:Author .
+
+<http://dbpedia.org/resource/Charles_Babbage> a ex:Author .
+
+<http://dbpedia.org/resource/Charles_Lyell> a ex:Author .
+
+<http://dbpedia.org/resource/Charles_Messier> a ex:Author .
+
+<http://dbpedia.org/resource/Christiaan_Barnard> a ex:Author .
+
+<http://dbpedia.org/resource/Christian_Doppler> a ex:Author .
+
+<http://dbpedia.org/resource/Christian_Goldbach> a ex:Author .
+
+<http://dbpedia.org/resource/Claude_Shannon> a ex:Author .
+
+<http://dbpedia.org/resource/Craig_Venter> a ex:Author .
+
+<http://dbpedia.org/resource/Herman_Boerhaave> a ex:Author .
+
+<http://dbpedia.org/resource/Hermann_Kolbe> a ex:Author .
+

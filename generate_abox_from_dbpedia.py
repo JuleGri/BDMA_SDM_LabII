@@ -1,20 +1,18 @@
-from rdflib import Graph, Namespace, RDF, URIRef, Literal
+from rdflib import Graph, Namespace, RDF, URIRef
 from SPARQLWrapper import SPARQLWrapper, JSON
-
-# SPARQL connection to GraphDB
-sparql = SPARQLWrapper("http://localhost:7200/repositories/000111")
-sparql.setReturnFormat(JSON)
 
 # Namespaces
 EX = Namespace("http://example.org/research/")
 DBO = Namespace("http://dbpedia.org/ontology/")
 
-# Output graph
+# Create output graph
 abox = Graph()
 abox.bind("ex", EX)
 
-# Step 1: Get authors (DBpedia scientists)
-sparql.setQuery("""
+# Query authors (scientists)
+sparql_authors = SPARQLWrapper("http://localhost:7200/repositories/000111")
+sparql_authors.setReturnFormat(JSON)
+sparql_authors.setQuery("""
 PREFIX dbo: <http://dbpedia.org/ontology/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 SELECT DISTINCT ?author WHERE {
@@ -22,33 +20,36 @@ SELECT DISTINCT ?author WHERE {
 }
 LIMIT 50
 """)
-author_results = sparql.query().convert()
+author_results = sparql_authors.query().convert()
+authors = [URIRef(row["author"]["value"]) for row in author_results["results"]["bindings"]]
 
-# Add authors to ABOX
-for row in author_results["results"]["bindings"]:
-    uri = URIRef(row["author"]["value"])
-    abox.add((uri, RDF.type, EX.Author))
-
-# Step 2: Get papers and abstracts
-sparql.setQuery("""
+# Query papers (written works)
+sparql_papers = SPARQLWrapper("http://localhost:7200/repositories/000111")
+sparql_papers.setReturnFormat(JSON)
+sparql_papers.setQuery("""
 PREFIX dbo: <http://dbpedia.org/ontology/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-SELECT DISTINCT ?paper ?abstract WHERE {
-  ?paper rdf:type dbo:WrittenWork ;
-         dbo:abstract ?abstract .
-  FILTER(lang(?abstract) = "en")
+SELECT DISTINCT ?paper WHERE {
+  ?paper rdf:type dbo:WrittenWork .
 }
 LIMIT 50
 """)
-paper_results = sparql.query().convert()
+paper_results = sparql_papers.query().convert()
+papers = [URIRef(row["paper"]["value"]) for row in paper_results["results"]["bindings"]]
 
-# Add papers to ABOX
-for row in paper_results["results"]["bindings"]:
-    uri = URIRef(row["paper"]["value"])
-    abstract = Literal(row["abstract"]["value"], lang="en")
-    abox.add((uri, RDF.type, EX.Paper))
-    abox.add((uri, EX.hasAbstract, abstract))
+# Create triples
+pair_count = min(len(authors), len(papers))
+for i in range(pair_count):
+    author = authors[i]
+    paper = papers[i]
 
-# Step 3: Save ABOX
+    abox.add((author, RDF.type, EX.Author))
+    abox.add((paper, RDF.type, EX.Paper))
+    abox.add((paper, EX.writes, author))
+
+    if i == 0:
+        abox.add((paper, EX.hasCorrespondingAuthor, author))
+
+# Save to Turtle
 abox.serialize("abox_from_dbpedia.ttl", format="turtle")
-print("ABOX file created: abox_from_dbpedia.ttl")
+print("✅ ABOX file created: abox_from_dbpedia.ttl")

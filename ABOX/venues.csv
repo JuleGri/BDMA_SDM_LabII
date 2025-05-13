@@ -1,0 +1,16 @@
+city,type,venue,venueId,volume,year
+Seoul,conference,International Symposium on Software Testing and Analysis,289bfdda-eab3-4c9a-97be-ef1e0f9ddfc0,,2023
+,journal,Data Intelligence,f80a2e54-1332-48bf-9634-4b2f77fca809,5,2023
+,journal,Proceedings of the VLDB Endowment,fcbcaf18-8ab1-43e1-a973-604bbc7e344e,16,2023
+Copenhagen,conference,International Symposium on Software Testing and Analysis,289bfdda-eab3-4c9a-97be-ef1e0f9ddfc0,,2022
+,journal,Cluster Computing,f1d0ef3d-4e90-41e9-b454-f589a933654f,26,2022
+,journal,Proceedings of the VLDB Endowment,fcbcaf18-8ab1-43e1-a973-604bbc7e344e,15,2022
+Amsterdam,conference,Symposium on Information and Communication Technology,8f515bf7-e3c7-4242-85e5-14de4c29e76c,,2022
+,journal,The Arabian journal for science and engineering,9bc76c9a-64ac-4dd9-902e-80fccca1833f,46,2021
+,journal,Electronics,ccd8e532-73c6-414f-bc91-271bbb2933e2,N/A,2021
+,journal,Applied Sciences,136edf8d-0f88-4c2c-830f-461c6a9b842e,N/A,2021
+San Francisco,conference,Annual Conference on Innovation and Technology in Computer Science Education,e82485bc-2195-4cf5-9f9a-012501918b2f,,2021
+Copenhagen,conference,"Knowledge Science, Engineering and Management",3e22d1e0-9b11-40a4-ac7c-0ebe5825316e,,2020
+,journal,Journal of Advances in Information Technology,f4784c7b-6592-49eb-a116-7290e0398868,N/A,2020
+Montreal,Workshop,Alberto Mendelzon Workshop on Foundations of Data Management,66257d67-2035-4ff6-b62a-4099db02fcde,,2018
+Rome,conference,International Conference on Computational Collective Intelligence,66c268f7-ba60-443f-919d-e2c297910401,,2020

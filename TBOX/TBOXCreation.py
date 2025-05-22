@@ -11,7 +11,7 @@ g.bind("rdfs", RDFS)
 # === Class definitions ===
 classes = [
     "Author", "Reviewer", "Paper", "Review", "Keyword",
-    "City", "Edition", "Volume", "Publication",
+    "City", "Edition", "Volume", "Venue",
     "Conference", "Workshop", "Journal"
 ]
 
@@ -20,22 +20,22 @@ for cls in classes:
 
 # Subclass relationships
 g.add((EX["Reviewer"], RDFS.subClassOf, EX["Author"]))
-g.add((EX["Conference"], RDFS.subClassOf, EX["Publication"]))
-g.add((EX["Workshop"], RDFS.subClassOf, EX["Publication"]))
-g.add((EX["Journal"], RDFS.subClassOf, EX["Publication"]))
+g.add((EX["Conference"], RDFS.subClassOf, EX["Venue"]))
+g.add((EX["Workshop"], RDFS.subClassOf, EX["Venue"]))
+g.add((EX["Journal"], RDFS.subClassOf, EX["Venue"]))
 
 # === Property definitions with domain and range ===
 properties = {
     "writes": ("Author", "Paper"),
     "hasCorrespondingAuthor": ("Paper", "Author"),
     "hasCoAuthor": ("Paper", "Author"),
-    "publishedIn": ("Paper", "Publication"),
+    "publishedIn": ("Paper", "Venue"),
     "hasReview": ("Paper", "Review"),
     "reviewedBy": ("Review", "Reviewer"),
     "hasAbstract": ("Paper", None),
     "hasKeyword": ("Paper", "Keyword"),
     "cites": ("Paper", "Paper"),
-    "hasEdition": ("Publication", "Edition"),
+    "hasEdition": ("Venue", "Edition"),
     "heldIn": ("Edition", "City"),
     "heldInYear": ("Edition", None),
     "hasVolume": ("Journal", "Volume"),

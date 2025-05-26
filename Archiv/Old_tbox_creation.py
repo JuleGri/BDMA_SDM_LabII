@@ -10,7 +10,7 @@ g.bind("rdfs", RDFS)
 
 # === Class definitions ===
 classes = [
-    "Author", "Reviewer", "Paper", "Review", "Keyword",
+    "Author", "Reviewer", "Paper", "Keyword",
     "City", "Edition", "Volume", "Venue",
     "Conference", "Workshop", "Journal"
 ]
@@ -30,8 +30,7 @@ properties = {
     "hasCorrespondingAuthor": ("Paper", "Author"),
     "hasCoAuthor": ("Paper", "Author"),
     "publishedIn": ("Paper", "Venue"),
-    "hasReview": ("Paper", "Review"),
-    "reviewedBy": ("Review", "Reviewer"),
+    "reviewedBy": ("Paper", "Reviewer"),
     "hasAbstract": ("Paper", None),
     "hasKeyword": ("Paper", "Keyword"),
     "cites": ("Paper", "Paper"),

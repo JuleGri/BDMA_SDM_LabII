@@ -1,16 +1,54 @@
 city,type,venue,venueId,volume,year
-Seoul,conference,International Symposium on Software Testing and Analysis,289bfdda-eab3-4c9a-97be-ef1e0f9ddfc0,,2023
-,journal,Data Intelligence,f80a2e54-1332-48bf-9634-4b2f77fca809,5,2023
+Barcelona,conference,International Symposium on Software Testing and Analysis,289bfdda-eab3-4c9a-97be-ef1e0f9ddfc0,,2023
 ,journal,Proceedings of the VLDB Endowment,fcbcaf18-8ab1-43e1-a973-604bbc7e344e,16,2023
-Copenhagen,conference,International Symposium on Software Testing and Analysis,289bfdda-eab3-4c9a-97be-ef1e0f9ddfc0,,2022
-,journal,Cluster Computing,f1d0ef3d-4e90-41e9-b454-f589a933654f,26,2022
+,journal,Data Intelligence,f80a2e54-1332-48bf-9634-4b2f77fca809,5,2023
+Rome,conference,International Symposium on Software Testing and Analysis,289bfdda-eab3-4c9a-97be-ef1e0f9ddfc0,,2022
 ,journal,Proceedings of the VLDB Endowment,fcbcaf18-8ab1-43e1-a973-604bbc7e344e,15,2022
+,journal,Cluster Computing,f1d0ef3d-4e90-41e9-b454-f589a933654f,26,2022
 Amsterdam,conference,Symposium on Information and Communication Technology,8f515bf7-e3c7-4242-85e5-14de4c29e76c,,2022
 ,journal,The Arabian journal for science and engineering,9bc76c9a-64ac-4dd9-902e-80fccca1833f,46,2021
+,journal,JMIR mHealth and uHealth,bb899a20-6789-46e4-9ed0-c7c284028fd9,9,2021
+,journal,Proceedings of the VLDB Endowment,fcbcaf18-8ab1-43e1-a973-604bbc7e344e,14,2021
 ,journal,Electronics,ccd8e532-73c6-414f-bc91-271bbb2933e2,N/A,2021
 ,journal,Applied Sciences,136edf8d-0f88-4c2c-830f-461c6a9b842e,N/A,2021
-San Francisco,conference,Annual Conference on Innovation and Technology in Computer Science Education,e82485bc-2195-4cf5-9f9a-012501918b2f,,2021
-Copenhagen,conference,"Knowledge Science, Engineering and Management",3e22d1e0-9b11-40a4-ac7c-0ebe5825316e,,2020
+Amsterdam,conference,Annual Conference on Innovation and Technology in Computer Science Education,e82485bc-2195-4cf5-9f9a-012501918b2f,,2021
+Seoul,conference,"Knowledge Science, Engineering and Management",3e22d1e0-9b11-40a4-ac7c-0ebe5825316e,,2020
+Tokyo,conference,International Conference on Computational Collective Intelligence,66c268f7-ba60-443f-919d-e2c297910401,,2020
 ,journal,Journal of Advances in Information Technology,f4784c7b-6592-49eb-a116-7290e0398868,N/A,2020
-Montreal,Workshop,Alberto Mendelzon Workshop on Foundations of Data Management,66257d67-2035-4ff6-b62a-4099db02fcde,,2018
-Rome,conference,International Conference on Computational Collective Intelligence,66c268f7-ba60-443f-919d-e2c297910401,,2020
+Montreal,conference,Chinese Control and Decision Conference,2cbf9479-e1fa-4c75-81f6-7103e18156ca,,2020
+Seoul,Workshop,Alberto Mendelzon Workshop on Foundations of Data Management,66257d67-2035-4ff6-b62a-4099db02fcde,,2018
+Copenhagen,conference,International Conference on Blockchain,f1ab8d75-7f15-4bb4-ad88-e834ec6ed604,,2020
+,journal,Applied Geomatics,41c3b19b-0bac-418a-89dc-2fa894c12fef,14,2020
+,journal,Data Science and Engineering,7e0547d5-ec21-470f-bdc9-b7615fc83a29,4,2019
+San Francisco,conference,ACM Asia Conference on Computer and Communications Security,87fc9c3c-cc7f-42aa-ba71-2700729a6788,,2019
+Montreal,Workshop,"IEEE International Symposium on Parallel & Distributed Processing, Workshops and Phd Forum",7ddefda0-174f-499a-9dce-855879dd01b7,,2019
+,journal,Proceedings of the VLDB Endowment,fcbcaf18-8ab1-43e1-a973-604bbc7e344e,12,2018
+,journal,PLoS ONE,0aed7a40-85f3-4c66-9e1b-c1556c57001b,13,2018
+Toronto,conference,International Conference on Network and System Security,71826259-dbc2-44dc-9ffa-abf8abd1514e,,2019
+,journal,BMC Systems Biology,7959fdab-81a2-4da4-8f2a-bd5855de5c6e,12,2018
+,journal,Acta Cybernetica,396366a4-a1ba-422b-a9ff-1471ee08eab8,24,2019
+,journal,EURASIP Journal on Wireless Communications and Networking,3215af4b-a40f-474d-bc19-27c154ff31a3,2018,2018
+,journal,Genomics & Informatics,1de6e987-7434-4277-b939-ccb29843e936,15,2017
+New York,conference,International Conference on Information and Software Technologies,d6dd0471-263c-45b1-8c75-ca4c683398e2,,2018
+,journal,"ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences",c18ca9ea-c394-46d2-b458-30dcf166dabb,N/A,2018
+,journal,Journal of Medicinal Chemistry,4cce60a8-2106-4240-bece-fb6488df6bd1,60 14,2017
+,journal,IEEE Transactions on Power Systems,dbbda9ef-0504-4875-b893-5c964f6b8f0e,32,2017
+Catania,conference,Web Information System and Application Conference,272e9ea4-5f3f-4a33-ba63-96d72e445a96,,2017
+,journal,International Journal of Computational Intelligence Systems,bc01813d-0622-430d-a5f1-416b7332b85e,10,2017
+Vienna,conference,International Conference on Advanced Cloud and Big Data,313e0052-5427-47c4-8468-527a82399583,,2017
+Vienna,Workshop,EDBT/ICDT Workshops,a2802f40-c210-444a-92bf-62245b599bb1,,2016
+Seoul,conference,International Conference on Science in Information Technology,ef1e8736-ed1b-48f1-bf5f-477f261a4e7b,,2017
+,journal,Journal of Computing and Information Science in Engineering,d029f971-f74c-41ca-8373-1b713414c797,22,2021
+,journal,bioRxiv,027ffd21-ebb0-4af8-baf5-911124292fd0,N/A,2017
+Barcelona,conference,International Conference on Data Technologies and Applications,dea8d7a8-c89e-4de9-bde3-0787594a055f,,2017
+,journal,Proceedings of the VLDB Endowment,fcbcaf18-8ab1-43e1-a973-604bbc7e344e,9,2015
+,journal,IEEE Transactions on Knowledge and Data Engineering,c6840156-ee10-4d78-8832-7f8909811576,27,2015
+,journal,Distributed and parallel databases,ceac6326-95ad-4e90-a522-b7ab052ea5a4,33,2015
+San Francisco,Workshop,Workshop on Graph Based Representations in Pattern Recognition,4fc0603b-2ba2-4512-94fa-ab87d02cb52a,,2015
+Seoul,conference,IEEE International Conference on Fuzzy Systems,ba675c4e-f2dc-454e-9e38-d195732ed2b6,,2015
+Copenhagen,conference,International Conference on Automated Software Engineering,1c2ab05c-7d69-465e-929d-0920857aedce,,2014
+Rome,conference,Rice,67734a9d-6cfd-4030-8586-c60ab6936188,,2018
+New York,conference,International Conference on Extending Database Technology,74f47cf8-2839-4a56-959a-524dd0ed9e3e,,2018
+Tokyo,conference,International Database Engineering and Applications Symposium,640b2c9a-6fb2-4333-8780-d31aa3c411cf,,2016
+,journal,Nature Computational Science,4cbc2987-6254-4668-b85b-aeabd7ff62ef,2,2022
+Rome,Workshop,International Workshop on Graph Data Management Experiences and Systems,c25754e3-36a9-4adb-a390-58907c897425,,2013

@@ -4,27 +4,40 @@ from rdflib.namespace import RDF, RDFS, XSD
 import re
 
 # Load CSVs
-authors_df = pd.read_csv("authors.csv")
-papers_df = pd.read_csv("papers.csv")
-venues_df = pd.read_csv("venues.csv")
-citations_df = pd.read_csv("citations.csv")
+authors_df = pd.read_csv("ABOX/authors.csv")
+papers_df = pd.read_csv("ABOX/papers.csv")
+venues_df = pd.read_csv("ABOX/venues.csv")
+citations_df = pd.read_csv("ABOX/citations.csv")
 
 # Initialize RDF graph and namespace
 EX = Namespace("http://example.org/research/")
 g = Graph()
 g.bind("ex", EX)
 
+# define the defeulat value for strings in integer fields
 def safe_int(value, default=0):
     try:
         return int(value)
     except (ValueError, TypeError):
         return default
+    
+# Normalize otherAuthors column in papers_df ===
+def normalize_author_list(field):
+    if pd.isna(field) or not str(field).strip():
+        return ""
+    # Split by comma, semicolon, or mixed, and join with semicolon
+    parts = re.split(r"[;,]\s*", str(field))
+    return ";".join([p.strip() for p in parts if p.strip().isdigit()])
+
+papers_df["otherAuthors"] = papers_df["otherAuthors"].apply(normalize_author_list)
+papers_df["reviewers"] = papers_df["reviewers"].apply(normalize_author_list)
 
 # === Authors ===
 for _, row in authors_df.iterrows():
     author_uri = EX[f"author/{row['authorId']}"]
     g.add((author_uri, RDF.type, EX.Author))
     g.add((author_uri, EX.name, Literal(row['name'], datatype=XSD.string)))
+    g.add((author_uri, EX.hIndex, Literal(safe_int(row['hIndex']), datatype=XSD.integer)))
     g.add((author_uri, EX.paperCount, Literal(safe_int(row['paper_Count']), datatype=XSD.integer)))
     try:
         for aff in eval(row['affiliations']):
@@ -70,10 +83,13 @@ for _, row in papers_df.iterrows():
     edition_uri = EX[f"edition/{row['venueId']}-{row['year']}"]
     g.add((paper_uri, EX.publishedIn, edition_uri))
 
-    g.add((paper_uri, EX.hasAuthor, EX[f"author/{row['firstAuthor']}"]))
+    for author_id in str(row["firstAuthor"]).replace(",", ";").split(";"):
+        author_id = author_id.strip()
+        if author_id:
+            g.add((paper_uri, EX.hasAuthor, EX[f"author/{author_id}"]))
 
     # Here, we transform the list of other authors into seperate keys. 
-    for author_id in str(row["otherAuthors"]).split(";"):
+    for author_id in str(row["otherAuthors"]).replace(",", ";").split(";"):
         author_id = author_id.strip()
         if author_id:
             g.add((paper_uri, EX.hasAuthor, EX[f"author/{author_id}"]))
@@ -91,5 +107,5 @@ for _, row in citations_df.iterrows():
     g.add((citing, EX.cites, cited))
 
 # Save ABox to TTL format
-g.serialize(destination="abox.ttl", format="turtle")
+g.serialize(destination="abox_50.ttl", format="turtle")
 print("ABox RDF file saved as 'abox.ttl'")

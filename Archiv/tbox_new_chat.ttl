@@ -36,27 +36,22 @@ ex:Workshop a rdfs:Class ;
         ex:Venue .
 
 ex:abstract a rdf:Property ;
-    rdfs:domain ex:Paper .
+    rdfs:domain ex:Paper ;
+    rdfs:range rdfs:Literal .
 
 ex:affiliatedWith a rdf:Property ;
-    rdfs:domain ex:Author .
+    rdfs:domain ex:Author ;
+    rdfs:range rdfs:Literal .
 
 ex:citationCount a rdf:Property ;
-    rdfs:domain ex:Paper .
+    rdfs:domain ex:Paper ;
+    rdfs:range rdfs:Literal .
 
 ex:cites a rdf:Property ;
     rdfs:domain ex:Paper ;
     rdfs:range ex:Paper .
 
 ex:hasAuthor a rdf:Property ;
-    rdfs:domain ex:Paper ;
-    rdfs:range ex:Author .
-
-ex:hasCoAuthor a rdf:Property ;
-    rdfs:domain ex:Paper ;
-    rdfs:range ex:Author .
-
-ex:hasCorrespondingAuthor a rdf:Property ;
     rdfs:domain ex:Paper ;
     rdfs:range ex:Author .
 
@@ -69,17 +64,21 @@ ex:hasVolume a rdf:Property ;
     rdfs:range ex:Volume .
 
 ex:hasVolumeNumber a rdf:Property ;
-    rdfs:domain ex:Volume .
+    rdfs:domain ex:Volume ;
+    rdfs:range rdfs:Literal .
 
 ex:heldIn a rdf:Property ;
     rdfs:domain ex:Edition ;
     rdfs:range ex:City .
 
 ex:heldInYear a rdf:Property ;
-    rdfs:domain ex:Edition .
+    rdfs:domain ex:Edition,
+        ex:Volume ;
+    rdfs:range rdfs:Literal .
 
 ex:influentialCitations a rdf:Property ;
-    rdfs:domain ex:Paper .
+    rdfs:domain ex:Paper ;
+    rdfs:range rdfs:Literal .
 
 ex:isEditionOf a rdf:Property ;
     rdfs:domain ex:Edition ;
@@ -88,7 +87,8 @@ ex:isEditionOf a rdf:Property ;
 ex:name a rdf:Property ;
     rdfs:domain ex:Author,
         ex:City,
-        ex:Venue .
+        ex:Venue ;
+    rdfs:range rdfs:Literal .
 
 ex:publishedIn a rdf:Property ;
     rdfs:domain ex:Paper ;
@@ -99,12 +99,10 @@ ex:reviewedBy a rdf:Property ;
     rdfs:range ex:Reviewer .
 
 ex:title a rdf:Property ;
-    rdfs:domain ex:Paper .
-
-ex:writes a rdf:Property ;
-    rdfs:domain ex:Author ;
-    rdfs:range ex:Paper .
+    rdfs:domain ex:Paper ;
+    rdfs:range rdfs:Literal .
 
 ex:year a rdf:Property ;
-    rdfs:domain ex:Paper .
+    rdfs:domain ex:Paper ;
+    rdfs:range rdfs:Literal .
 

@@ -10,6 +10,11 @@ affiliations,authorId,hIndex,name,paper_Count
 ,144281339,Unknown,Lu Zhang,Unknown
 ,5779643,Unknown,Wenpin Jiao,Unknown
 ,2057038192,Unknown,Tao Xie,Unknown
+,144352362,Unknown,W. Martens,Unknown
+,2879007,Unknown,Matthias Niewerth,Unknown
+,2164445100,Unknown,Tina Popp,Unknown
+,2304958793,Unknown,Carlos Rojas,Unknown
+,1709642,Unknown,Stijn Vansummeren,Unknown
 ,2434366,Unknown,D. Vrgoč,Unknown
 ,2059572334,Unknown,Carlos Rojas,Unknown
 ,2772109,Unknown,Renzo Angles,Unknown
@@ -20,11 +25,6 @@ affiliations,authorId,hIndex,name,paper_Count
 ,143678972,Unknown,G. Navarro,Unknown
 ,1706922,Unknown,Cristian Riveros,Unknown
 ,143911374,Unknown,J. Romero,Unknown
-,144352362,Unknown,W. Martens,Unknown
-,2879007,Unknown,Matthias Niewerth,Unknown
-,2164445100,Unknown,Tina Popp,Unknown
-,2304958793,Unknown,Carlos Rojas,Unknown
-,1709642,Unknown,Stijn Vansummeren,Unknown
 ,2158585032,Unknown,Yingying Zheng,Unknown
 ,2964640,Unknown,Wensheng Dou,Unknown
 ,134898163,Unknown,Yicheng Wang,Unknown
@@ -34,10 +34,15 @@ affiliations,authorId,hIndex,name,paper_Count
 ,2152692124,Unknown,Dong Wang,Unknown
 ,40231586,Unknown,Wei Wang,Unknown
 ,144525882,Unknown,Jun Wei,Unknown
+,2108844303,Unknown,Hongzhi Chen,Unknown
+,2145413970,Unknown,Changji Li,Unknown
+,72117196,Unknown,Che Zheng,Unknown
+,2150609388,Unknown,Chenghuan Huang,Unknown
+,2115219530,Unknown,Juncheng Fang,Unknown
+,2116502347,Unknown,James Cheng,Unknown
+,2151811827,Unknown,Jian Zhang,Unknown
 ,144615268,Unknown,Sakshi Srivastava,Unknown
 ,2140474907,Unknown,A. Singh,Unknown
-,2145413970,Unknown,Changji Li,Unknown
-,2108844303,Unknown,Hongzhi Chen,Unknown
 ,2167037428,Unknown,Shuai Zhang,Unknown
 ,1490915504,Unknown,Ying-Xin Hu,Unknown
 ,2145763285,Unknown,Chao Chen,Unknown
@@ -54,18 +59,13 @@ affiliations,authorId,hIndex,name,paper_Count
 ,2184079980,Unknown,Hongfei Tan,Unknown
 ,113398129,Unknown,Hengtian Ding,Unknown
 ,2695617,Unknown,Meng-Ti Liu,Unknown
-,2321412875,Unknown,KANGSHENG;KANGCHENG WANG,Unknown
+,2321412875,Unknown,Kangsheng Wang,Unknown
 ,2112409349,Unknown,Ting Ye,Unknown
 ,46255707,Unknown,Lei Li,Unknown
 ,2157513188,Unknown,Xin Li,Unknown
 ,2153604994,Unknown,Yu Wang,Unknown
 ,2113918898,Unknown,Chen Zheng,Unknown
 ,50841357,Unknown,Han Yang,Unknown
-,2116502347,Unknown,James Cheng,Unknown
-,72117196,Unknown,Che Zheng,Unknown
-,2150609388,Unknown,Chenghuan Huang,Unknown
-,2115219530,Unknown,Juncheng Fang,Unknown
-,2151811827,Unknown,Jian Zhang,Unknown
 ,10313020,Unknown,T. Do,Unknown
 ,2192611227,Unknown,Thai-Bao Mai-Hoang,Unknown
 ,23214019,Unknown,Van-Quyet Nguyen,Unknown
@@ -73,6 +73,14 @@ affiliations,authorId,hIndex,name,paper_Count
 ,70209653,Unknown,Debachudamani Prusti,Unknown
 ,2070468032,Unknown,Daisy Das,Unknown
 ,7790877,Unknown,S. K. Rath,Unknown
+,2054289955,Unknown,Zijun Mao,Unknown
+,101108644,Unknown,Hongyun Yao,Unknown
+,2054838160,Unknown,Qi Zou,Unknown
+,1492120545,Unknown,Weiting Zhang,Unknown
+,2115905112,Unknown,Ying Dong,Unknown
+,1505708061,Unknown,Pranjal Gupta,Unknown
+,26391899,Unknown,Amine Mhedhbi,Unknown
+,1783781,Unknown,S. Salihoglu,Unknown
 ,1725650,Unknown,S. Ferilli,Unknown
 ,98831679,Unknown,Bing-Cang Yang,Unknown
 ,2153317609,Unknown,Miaosi Dong,Unknown
@@ -88,10 +96,173 @@ affiliations,authorId,hIndex,name,paper_Count
 ,150358651,Unknown,Zhengyi Yang,Unknown
 ,19262604,Unknown,W. Zhang,Unknown
 ,2873542,Unknown,Xuemin Lin,Unknown
-,2148303656,Unknown,M. Massri,Unknown
-,66913593,Unknown,Parvedy Philippe Raipin,Unknown
-,3010622,Unknown,Pierre Meye,Unknown
 ,152781515,Unknown,Anupam Das,Unknown
 ,46501582,Unknown,A. Mitra,Unknown
 ,105003008,Unknown,Surendra Nath Bhagat,Unknown
 ,152125305,Unknown,Subrata Paul,Unknown
+,2148303656,Unknown,M. Massri,Unknown
+,66913593,Unknown,Parvedy Philippe Raipin,Unknown
+,3010622,Unknown,Pierre Meye,Unknown
+,2158490269,Unknown,Pengcheng Liu,Unknown
+,2118798587,Unknown,Yinliang Huang,Unknown
+,2152209915,Unknown,Ping Wang,Unknown
+,1877327478,Unknown,Qifan Zhao,Unknown
+,145104321,Unknown,Juan Nie,Unknown
+,145843448,Unknown,Yuyang Tang,Unknown
+,2157681212,Unknown,Lebin Sun,Unknown
+,2157843743,Unknown,Hailei Wang,Unknown
+,47149500,Unknown,Xuelian Wu,Unknown
+,2108691840,Unknown,Wenbo Li,Unknown
+,2069559207,Unknown,Victor Ermolaev,Unknown
+,1903751380,Unknown,Indrek Klangberg,Unknown
+,40915325,Unknown,Yash Madhwal,Unknown
+,1904203865,Unknown,Silver Vapper,Unknown
+,1904199594,Unknown,Sjoerd Wels,Unknown
+,1500655986,Unknown,Y. Yanovich,Unknown
+,2116718,Unknown,E. Malinverni,Unknown
+,51386512,Unknown,B. Naticchia,Unknown
+,2126581481,Unknown,Jose Luis Lerma Garcia,Unknown
+,2005442184,Unknown,A. Gorreja,Unknown
+,2126602785,Unknown,Joaquin Lopez Uriarte,Unknown
+,2123810691,Unknown,F. Di Stefano,Unknown
+,3425847,Unknown,Yijian Cheng,Unknown
+,151167094,Unknown,Pengjie Ding,Unknown
+,2116679709,Unknown,Tongtong Wang,Unknown
+,51255623,Unknown,W. Lu,Unknown
+,144589756,Unknown,Xiaoyong Du,Unknown
+,3372924,Unknown,Shangqi Lai,Unknown
+,3032058,Unknown,Xingliang Yuan,Unknown
+,2044382,Unknown,Shifeng Sun,Unknown
+,1416519437,Unknown,Joseph K. Liu,Unknown
+,46398863,Unknown,Yuhong Liu,Unknown
+,2729382,Unknown,Dongxi Liu,Unknown
+,115694632,Unknown,Pieter Cailliau,Unknown
+,2069668457,Unknown,Tim Davis,Unknown
+,74882299,Unknown,V. Gadepally,Unknown
+,3257323,Unknown,J. Kepner,Unknown
+,113272803,Unknown,Roi Lipman,Unknown
+,114367405,Unknown,Jeffrey Lovitz,Unknown
+,2310211,Unknown,Keren Ouaknine,Unknown
+,2574504,Unknown,Matteo Lissandrini,Unknown
+,3415440,Unknown,Martin Brugnara,Unknown
+,2163752,Unknown,Yannis Velegrakis,Unknown
+,51417783,Unknown,Faming Gong,Unknown
+,2115736466,Unknown,Yuhui Ma,Unknown
+,2510306,Unknown,Wenjuan Gong,Unknown
+,2108756985,Unknown,Xiaoran Li,Unknown
+,145510499,Unknown,C. Li,Unknown
+,51917504,Unknown,Xiangbing Yuan,Unknown
+,2094667365,Unknown,Lars Diederichsen,Unknown
+,2840539,Unknown,Kim-Kwang Raymond Choo,Unknown
+,1388632905,Unknown,Nhien-An Le-Khac,Unknown
+,2053475163,Unknown,A. Messina,Unknown
+,1726596,Unknown,A. Fiannaca,Unknown
+,48270780,Unknown,L. Paglia,Unknown
+,145345939,Unknown,M. L. Rosa,Unknown
+,1706102,Unknown,A. Urso,Unknown
+,2058456649,Unknown,T. Kovács,Unknown
+,2057440722,Unknown,Gábor Simon,Unknown
+,144521155,Unknown,G. Mezei,Unknown
+,2599800,Unknown,Xiaoling Tao,Unknown
+,2152802371,Unknown,Yang Liu,Unknown
+,2087912383,Unknown,Feng Zhao,Unknown
+,1739380877,Unknown,Changsong Yang,Unknown
+,2153953921,Unknown,Yong Wang,Unknown
+,3515169,Unknown,Byoung-Ha Yoon,Unknown
+,2248549493,Unknown,Seon-Kyu Kim,Unknown
+,2249671765,Unknown,Seon-Young Kim,Unknown
+,2089508093,Unknown,Yelda Unal,Unknown
+,9207924,Unknown,H. Oguztuzun,Unknown
+,143758771,Unknown,A. Hor,Unknown
+,39894237,Unknown,G. Sohn,Unknown
+,3240937,Unknown,P. Claudio,Unknown
+,1483744000,Unknown,M. Jadidi,Unknown
+,89129886,Unknown,A. Afnan,Unknown
+,145366422,Unknown,Richard J. Hall,Unknown
+,32682297,Unknown,C. Murray,Unknown
+,2462060,Unknown,M. Verdonk,Unknown
+,30492227,Unknown,G. Ravikumar,Unknown
+,2893252,Unknown,S. Khaparde,Unknown
+,46255467,Unknown,N. Yi,Unknown
+,49673164,Unknown,Chunfang Li,Unknown
+,2112638989,Unknown,Xin Feng,Unknown
+,34701398,Unknown,Minyong Shi,Unknown
+,2204964,Unknown,B. Kan,Unknown
+,3256994,Unknown,Wendong Zhu,Unknown
+,121865955,Unknown,Guangyi Liu,Unknown
+,2145308743,Unknown,Xi Chen,Unknown
+,2064971594,Unknown,D. Shi,Unknown
+,143627522,Unknown,Weiqing Yu,Unknown
+,2677700,Unknown,Zhisong Fu,Unknown
+,7806657,Unknown,Zhengwei Wu,Unknown
+,3358986,Unknown,Houyi Li,Unknown
+,1943322867,Unknown,Yize Li,Unknown
+,2144151933,Unknown,Min Wu,Unknown
+,2108966388,Unknown,Xiaojie Chen,Unknown
+,2114147314,Unknown,Xiaomeng Ye,Unknown
+,24812041,Unknown,Benquan Yu,Unknown
+,2218569240,Unknown,Xi Hu,Unknown
+,2973714,Unknown,Konstantinos Semertzidis,Unknown
+,1781993,Unknown,E. Pitoura,Unknown
+,121066428,Unknown,I. Dharmawan,Unknown
+,2803317,Unknown,R. Sarno,Unknown
+,51471694,Unknown,L. Siddharth,Unknown
+,1906960,Unknown,L. Blessing,Unknown
+,2053320598,Unknown,Kristin L. Wood,Unknown
+,145990580,Unknown,Jianxi Luo,Unknown
+,29908197,Unknown,Sajid Mughal,Unknown
+,3410738,Unknown,Ismail Moghul,Unknown
+,1624701041,Unknown,Jing Yu,Unknown
+,2055223031,Unknown,Tristan Clark,Unknown
+,14700512,Unknown,D. S. Gregory,Unknown
+,48573031,Unknown,N. Pontikos,Unknown
+,2059684397,Unknown,M. Haeusler,Unknown
+,1768034,Unknown,Thomas Trojer,Unknown
+,2061622257,Unknown,Johannes Kessler,Unknown
+,2540495,Unknown,Matthias Farwick,Unknown
+,143909963,Unknown,Emmanuel Nowakowski,Unknown
+,1778015,Unknown,R. Breu,Unknown
+,2056568916,Unknown,Ayush Dubey,Unknown
+,34629652,Unknown,G. D. Hill,Unknown
+,2109875,Unknown,Robert Escriva,Unknown
+,3326762,Unknown,E. G. Sirer,Unknown
+,153158488,Unknown,Liang Hong,Unknown
+,144554647,Unknown,Lei Zou,Unknown
+,1800925,Unknown,Xiang Lian,Unknown
+,144019071,Unknown,Philip S. Yu,Unknown
+,2463711,Unknown,Alan G. Labouseur,Unknown
+,40208399,Unknown,Jeremy Birnbaum,Unknown
+,2334971,Unknown,Paul W. Olsen,Unknown
+,2707311,Unknown,Sean R. Spillane,Unknown
+,35207399,Unknown,Jayadevan Vijayan,Unknown
+,3164984,Unknown,Jeong-Hyon Hwang,Unknown
+,144422954,Unknown,Wook-Shin Han,Unknown
+,1398279766,Unknown,Zeina Abu-Aisheh,Unknown
+,1788879,Unknown,R. Raveaux,Unknown
+,1689847,Unknown,Jean-Yves Ramel,Unknown
+,1741623,Unknown,O. Pivert,Unknown
+,145433223,Unknown,Grégory Smits,Unknown
+,2673479,Unknown,Virginie Thion,Unknown
+,2741023,Unknown,Miyuru Dayarathna,Unknown
+,2231831,Unknown,T. Suzumura,Unknown
+,82495098,Unknown,H. R. Vyawahare,Unknown
+,83974446,Unknown,P. Karde,Unknown
+,144544723,Unknown,V. Thakare,Unknown
+,2114796246,Unknown,Mohamed S. Hassan,Unknown
+,145644753,Unknown,T. Kuznetsova,Unknown
+,26435742,Unknown,H. Jeong,Unknown
+,1709661,Unknown,W. Aref,Unknown
+,1719119,Unknown,Mohammad Sadoghi,Unknown
+,144668991,Unknown,J. Pokorný,Unknown
+,143915066,Unknown,Chi Chen,Unknown
+,2381325,Unknown,S. Ong,Unknown
+,144300761,Unknown,C. Cattuto,Unknown
+,3239606,Unknown,M. Quaggiotto,Unknown
+,2735649,Unknown,A. Panisson,Unknown
+,39966779,Unknown,A. Averbuch,Unknown
+,1792856,Unknown,C. Joslyn,Unknown
+,7617146,Unknown,Sutanay Choudhury,Unknown
+,1774041,Unknown,D. Haglin,Unknown
+,1686294,Unknown,Bill Howe,Unknown
+,3090789,Unknown,B. Nickless,Unknown
+,29552860,Unknown,Bryan K. Olsen,Unknown

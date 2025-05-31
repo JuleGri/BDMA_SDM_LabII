@@ -78,9 +78,11 @@ for _, row in venues_df.iterrows():
         raw_volume = str(row["volume"]).strip()
         clean_volume = re.sub(r"\s+", "-", raw_volume)  # replaces spaces with dash
         # Ende
+        year = str(row["year"]).strip()
+        
 
         if not pd.isna(row.get("volume", None)):
-            volume_uri = EX[f"volume/{venue_id}-{clean_volume}"]
+            volume_uri = EX[f"volume/{venue_id}-{year}-{clean_volume}"]
             g.add((volume_uri, RDF.type, EX.Volume))
             g.add((volume_uri, EX.hasVolumeNumber, Literal(str(row["volume"]), datatype=XSD.string)))
             g.add((volume_uri, EX.heldInYear, Literal(int(row["year"]), datatype=XSD.gYear)))
@@ -97,27 +99,32 @@ for _, row in papers_df.iterrows():
     g.add((paper_uri, EX.citationCount, Literal(int(row["citationCount"]), datatype=XSD.integer)))
     
 ## Here we link the paper and therefore its volume etc. properties to the right type of venue ###
+    #First by striping the ids from the csv of any extras and blanks
     venue_type = row["venueType"].lower()
+    paper_year = str(row["year"]).strip()
+    paper_venue_id = str(row["venueId"]).strip()
 
     if venue_type in ["conference", "workshop"]:
-        proceedings_uri = EX[f"proceedings/{row['venueId']}-{row['year']}"]
+        proceedings_uri = EX[f"proceedings/{row['venueId']}-{paper_year}"]
         g.add((paper_uri, EX.publishedIn, proceedings_uri))
 
     elif venue_type == "journal" and not pd.isna(row.get("volume", None)):
-        volume_uri = EX[f"volume/{venue_id}-{clean_volume}"]
+        raw_volume = str(row["volume"]).strip()
+        clean_volume = re.sub(r"\s+", "-", raw_volume)
+        volume_uri = EX[f"volume/{paper_venue_id}-{paper_year}-{clean_volume}"]
         g.add((paper_uri, EX.publishedIn, volume_uri))
 
 ## Here we assign the first author given in the csv #######
-    for author_id in str(row["firstAuthor"]).replace(",", ";").split(";"):
-        author_id = author_id.strip()
-        if author_id:
-            g.add((paper_uri, EX.hasAuthor, EX[f"author/{author_id}"]))
+    for FirstAuthor_id in str(row["firstAuthor"]).replace(",", ";").split(";"):
+        FirstAuthor_id = FirstAuthor_id.strip()
+        if FirstAuthor_id:
+            g.add((paper_uri, EX.hasCorrespondingAuthor, EX[f"author/{FirstAuthor_id}"]))
 
     # Here, we transform the list of other authors into seperate keys. 
-    for author_id in str(row["otherAuthors"]).replace(",", ";").split(";"):
-        author_id = author_id.strip()
-        if author_id:
-            g.add((paper_uri, EX.hasAuthor, EX[f"author/{author_id}"]))
+    for CoAuthor_id in str(row["otherAuthors"]).replace(",", ";").split(";"):
+        CoAuthor_id = CoAuthor_id.strip()
+        if CoAuthor_id:
+            g.add((paper_uri, EX.hasCoAuthor, EX[f"author/{CoAuthor_id}"]))
 
     # Here, we transform the list of reviewers into seperate keys.
     for reviewer_id in str(row.get("reviewers", "")).split(";"):
@@ -132,5 +139,5 @@ for _, row in citations_df.iterrows():
     g.add((citing, EX.cites, cited))
 
 # Save ABox to TTL format
-g.serialize(destination="abox_new_with_name.ttl", format="turtle")
-print("ABox RDF file saved as 'abox_NEW_with_name.ttl'")
+g.serialize(destination="abox_new.ttl", format="turtle")
+print("ABox RDF file saved as 'abox_new.ttl'")

@@ -162,10 +162,10 @@
         <http://example.org/research/paper/c7345632ebe6ce9f7e2f14206d985b80bcc937db>,
         <http://example.org/research/paper/cf85ebd37a567d25dd3b2cb1830337e98828f4f7>,
         <http://example.org/research/paper/f1f9b01d2d51c81f2f0625f39a5239843e52f703> ;
-    ex:hasAuthor <http://example.org/research/author/153314895>,
-        <http://example.org/research/author/2051972259>,
+    ex:hasCoAuthor <http://example.org/research/author/2051972259>,
         <http://example.org/research/author/2517099>,
         <http://example.org/research/author/66327914> ;
+    ex:hasCorrespondingAuthor <http://example.org/research/author/153314895> ;
     ex:publishedIn <http://example.org/research/proceedings/e82485bc-2195-4cf5-9f9a-012501918b2f-2021> ;
     ex:reviewedBy <http://example.org/research/author/145843448>,
         <http://example.org/research/author/2116502347>,
@@ -206,12 +206,12 @@
         <http://example.org/research/paper/de946af9ff708f0018ce0365751b24659b5008b9>,
         <http://example.org/research/paper/e0043f49465b2d5d4cefa45aca8485191a63deaa>,
         <http://example.org/research/paper/edae90e506ff218b866811ccc38fc35b76d96c3f> ;
-    ex:hasAuthor <http://example.org/research/author/145345939>,
+    ex:hasCoAuthor <http://example.org/research/author/145345939>,
         <http://example.org/research/author/1706102>,
         <http://example.org/research/author/1726596>,
-        <http://example.org/research/author/2053475163>,
         <http://example.org/research/author/48270780> ;
-    ex:publishedIn <http://example.org/research/volume/c25754e3-36a9-4adb-a390-58907c897425-2> ;
+    ex:hasCorrespondingAuthor <http://example.org/research/author/2053475163> ;
+    ex:publishedIn <http://example.org/research/volume/7959fdab-81a2-4da4-8f2a-bd5855de5c6e-2018-12> ;
     ex:reviewedBy <http://example.org/research/author/144300761>,
         <http://example.org/research/author/152781515>,
         <http://example.org/research/author/2424392> ;
@@ -243,12 +243,12 @@
         <http://example.org/research/paper/f9ae0f15007bc7c5ecc34ea6f03f82c8663b70d9>,
         <http://example.org/research/paper/fa10309c20e5a20cf61bed3a357ea835eb55e75a>,
         <http://example.org/research/paper/fd57e72513898ba719dd12bbccb8af219d6551f9> ;
-    ex:hasAuthor <http://example.org/research/author/101108644>,
+    ex:hasCoAuthor <http://example.org/research/author/101108644>,
         <http://example.org/research/author/1492120545>,
-        <http://example.org/research/author/2054289955>,
         <http://example.org/research/author/2054838160>,
         <http://example.org/research/author/2115905112> ;
-    ex:publishedIn <http://example.org/research/volume/c25754e3-36a9-4adb-a390-58907c897425-2> ;
+    ex:hasCorrespondingAuthor <http://example.org/research/author/2054289955> ;
+    ex:publishedIn <http://example.org/research/volume/bb899a20-6789-46e4-9ed0-c7c284028fd9-2021-9> ;
     ex:reviewedBy <http://example.org/research/author/1483744000>,
         <http://example.org/research/author/2117925465>,
         <http://example.org/research/author/2126581481>,
@@ -342,10 +342,10 @@
         <http://example.org/research/paper/f8aef461e0b725f37550d807626d1f4a9f26ec47>,
         <http://example.org/research/paper/fe0925e6530cf35272f198433bf996fcb636e306>,
         <http://example.org/research/paper/fe4c5074f021cd1c810892c1b6bc267b23aa6e5c> ;
-    ex:hasAuthor <http://example.org/research/author/144300761>,
-        <http://example.org/research/author/2735649>,
+    ex:hasCoAuthor <http://example.org/research/author/2735649>,
         <http://example.org/research/author/3239606>,
         <http://example.org/research/author/39966779> ;
+    ex:hasCorrespondingAuthor <http://example.org/research/author/144300761> ;
     ex:publishedIn <http://example.org/research/proceedings/c25754e3-36a9-4adb-a390-58907c897425-2013> ;
     ex:reviewedBy <http://example.org/research/author/2145413970>,
         <http://example.org/research/author/24812041>,
@@ -379,7 +379,7 @@
         <http://example.org/research/paper/e5c1e87cd4a7fad5c4518ec24f58c08494321435>,
         <http://example.org/research/paper/fc52101da510e77a5250b5855eba004f9b671cd3>,
         <http://example.org/research/paper/ff9cf8c46ac90ef6ae0e539abe50d52c467bc7c8> ;
-    ex:hasAuthor <http://example.org/research/author/1725650> ;
+    ex:hasCorrespondingAuthor <http://example.org/research/author/1725650> ;
     ex:reviewedBy <http://example.org/research/author/144589756>,
         <http://example.org/research/author/2145763285>,
         <http://example.org/research/author/7790877> ;
@@ -409,13 +409,13 @@
         <http://example.org/research/paper/e9c1618f8685997efdcf3bc7525c5ae2c2eb490c>,
         <http://example.org/research/paper/ef93728b287909a4f961b1acd1dc4c157f987556>,
         <http://example.org/research/paper/f3e765ca2b8c4191759b141d2e5c42215ed9090d> ;
-    ex:hasAuthor <http://example.org/research/author/121865955>,
+    ex:hasCoAuthor <http://example.org/research/author/121865955>,
         <http://example.org/research/author/143627522>,
         <http://example.org/research/author/2064971594>,
         <http://example.org/research/author/2145308743>,
-        <http://example.org/research/author/2204964>,
         <http://example.org/research/author/3256994> ;
-    ex:publishedIn <http://example.org/research/volume/c25754e3-36a9-4adb-a390-58907c897425-2> ;
+    ex:hasCorrespondingAuthor <http://example.org/research/author/2204964> ;
+    ex:publishedIn <http://example.org/research/volume/bc01813d-0622-430d-a5f1-416b7332b85e-2017-10> ;
     ex:reviewedBy <http://example.org/research/author/1709661>,
         <http://example.org/research/author/1725650>,
         <http://example.org/research/author/2741023>,
@@ -455,13 +455,13 @@
         <http://example.org/research/paper/c61795876dc5db8bb0468b30a40b9fb88454b1fb>,
         <http://example.org/research/paper/e386c6427a45db4ff3e568c4ab2927a6222946c4>,
         <http://example.org/research/paper/f9e1da529b8cdb11cec3257f11eac82b2eb299de> ;
-    ex:hasAuthor <http://example.org/research/author/144352362>,
-        <http://example.org/research/author/1709642>,
+    ex:hasCoAuthor <http://example.org/research/author/1709642>,
         <http://example.org/research/author/2164445100>,
         <http://example.org/research/author/2304958793>,
         <http://example.org/research/author/2434366>,
         <http://example.org/research/author/2879007> ;
-    ex:publishedIn <http://example.org/research/volume/c25754e3-36a9-4adb-a390-58907c897425-2> ;
+    ex:hasCorrespondingAuthor <http://example.org/research/author/144352362> ;
+    ex:publishedIn <http://example.org/research/volume/fcbcaf18-8ab1-43e1-a973-604bbc7e344e-2023-16> ;
     ex:reviewedBy <http://example.org/research/author/153158488>,
         <http://example.org/research/author/2054838160>,
         <http://example.org/research/author/2157843743>,
@@ -487,10 +487,10 @@
         <http://example.org/research/paper/c67b1e5ed1af7a9eac30363b1f4ce45a98db2e94>,
         <http://example.org/research/paper/c87bcbb8197ba1536075e46f5d21583f67509ac0>,
         <http://example.org/research/paper/ea187c4d7c337729f50d178dd50de7d2e99155eb> ;
-    ex:hasAuthor <http://example.org/research/author/105003008>,
+    ex:hasCoAuthor <http://example.org/research/author/105003008>,
         <http://example.org/research/author/152125305>,
-        <http://example.org/research/author/152781515>,
         <http://example.org/research/author/46501582> ;
+    ex:hasCorrespondingAuthor <http://example.org/research/author/152781515> ;
     ex:publishedIn <http://example.org/research/proceedings/66c268f7-ba60-443f-919d-e2c297910401-2020> ;
     ex:reviewedBy <http://example.org/research/author/113272803>,
         <http://example.org/research/author/1483744000>,
@@ -527,8 +527,8 @@
         <http://example.org/research/paper/ecb24559b1def4707c7c6d21a97f3972bb9abd0e>,
         <http://example.org/research/paper/ee0d8e27ac0b9842cf8f3c1f46be66b293bdacdc>,
         <http://example.org/research/paper/f51c080bc77897a0e247cb354a130a7b200e84a9> ;
-    ex:hasAuthor <http://example.org/research/author/2231831>,
-        <http://example.org/research/author/2741023> ;
+    ex:hasCoAuthor <http://example.org/research/author/2231831> ;
+    ex:hasCorrespondingAuthor <http://example.org/research/author/2741023> ;
     ex:publishedIn <http://example.org/research/proceedings/1c2ab05c-7d69-465e-929d-0920857aedce-2014> ;
     ex:reviewedBy <http://example.org/research/author/2116718>,
         <http://example.org/research/author/2158490269>,
@@ -563,9 +563,9 @@
         <http://example.org/research/paper/d2d597374925f47a5acd8bbf76f814cdb4ab5be6>,
         <http://example.org/research/paper/de3503928d7b056bee3d544c782ca601ad7a69db>,
         <http://example.org/research/paper/e500967568830df4b5e731a83d30b2a028ce820d> ;
-    ex:hasAuthor <http://example.org/research/author/144544723>,
-        <http://example.org/research/author/82495098>,
+    ex:hasCoAuthor <http://example.org/research/author/144544723>,
         <http://example.org/research/author/83974446> ;
+    ex:hasCorrespondingAuthor <http://example.org/research/author/82495098> ;
     ex:publishedIn <http://example.org/research/proceedings/67734a9d-6cfd-4030-8586-c60ab6936188-2018> ;
     ex:reviewedBy <http://example.org/research/author/2115256817>,
         <http://example.org/research/author/24812041>,
@@ -589,12 +589,12 @@
         <http://example.org/research/paper/b48c077e8f368857a2453a5ac6a62108308dbe89>,
         <http://example.org/research/paper/e078eac076fb696d843c1e36c169cafb0578d480>,
         <http://example.org/research/paper/f38ff67082e2d14f0b5c4393078d7a3f1097963a> ;
-    ex:hasAuthor <http://example.org/research/author/14700512>,
+    ex:hasCoAuthor <http://example.org/research/author/14700512>,
         <http://example.org/research/author/1624701041>,
         <http://example.org/research/author/2055223031>,
-        <http://example.org/research/author/29908197>,
         <http://example.org/research/author/3410738>,
         <http://example.org/research/author/48573031> ;
+    ex:hasCorrespondingAuthor <http://example.org/research/author/29908197> ;
     ex:reviewedBy <http://example.org/research/author/19262604>,
         <http://example.org/research/author/2873542>,
         <http://example.org/research/author/48270780> ;
@@ -667,11 +667,11 @@
         <http://example.org/research/paper/f99d617414b80eaac2523db6d648b84dfc4df5b3>,
         <http://example.org/research/paper/fd08c29fe43dc135c7fd1bba5b2923954705f3f4>,
         <http://example.org/research/paper/ffce2e1c861ddc928194117d0eabd500ce35fde2> ;
-    ex:hasAuthor <http://example.org/research/author/145990580>,
+    ex:hasCoAuthor <http://example.org/research/author/145990580>,
         <http://example.org/research/author/1906960>,
-        <http://example.org/research/author/2053320598>,
-        <http://example.org/research/author/51471694> ;
-    ex:publishedIn <http://example.org/research/volume/c25754e3-36a9-4adb-a390-58907c897425-2> ;
+        <http://example.org/research/author/2053320598> ;
+    ex:hasCorrespondingAuthor <http://example.org/research/author/51471694> ;
+    ex:publishedIn <http://example.org/research/volume/d029f971-f74c-41ca-8373-1b713414c797-2021-22> ;
     ex:reviewedBy <http://example.org/research/author/1903751380>,
         <http://example.org/research/author/2109875>,
         <http://example.org/research/author/2116124684>,
@@ -717,7 +717,7 @@
         <http://example.org/research/paper/e7f1640a76bbfdf701e6cd4d81163be2eb97a4de>,
         <http://example.org/research/paper/f22596997e8975e4086d2d6a49e3b0f5b1a0cf1a>,
         <http://example.org/research/paper/ff5280195436b9f48ed49984a1cada7adee5ea82> ;
-    ex:hasAuthor <http://example.org/research/author/144668991> ;
+    ex:hasCorrespondingAuthor <http://example.org/research/author/144668991> ;
     ex:publishedIn <http://example.org/research/proceedings/640b2c9a-6fb2-4333-8780-d31aa3c411cf-2016> ;
     ex:reviewedBy <http://example.org/research/author/1768034>,
         <http://example.org/research/author/2053475163>,
@@ -1222,9 +1222,9 @@
         <http://example.org/research/paper/fef63dc22d9608d57b76c8b1abdcd8bce6b4e385>,
         <http://example.org/research/paper/ffa328204dcdd04b20349465579c1effbe8b4c10>,
         <http://example.org/research/paper/ffad3314cb68d5c937865a7ba45a89226338e47d> ;
-    ex:hasAuthor <http://example.org/research/author/143915066>,
-        <http://example.org/research/author/2381325> ;
-    ex:publishedIn <http://example.org/research/volume/c25754e3-36a9-4adb-a390-58907c897425-2> ;
+    ex:hasCoAuthor <http://example.org/research/author/2381325> ;
+    ex:hasCorrespondingAuthor <http://example.org/research/author/143915066> ;
+    ex:publishedIn <http://example.org/research/volume/4cbc2987-6254-4668-b85b-aeabd7ff62ef-2022-2> ;
     ex:reviewedBy <http://example.org/research/author/145843448>,
         <http://example.org/research/author/2218569240>,
         <http://example.org/research/author/3090789>,
@@ -1250,9 +1250,9 @@
         <http://example.org/research/paper/cf0b0e8f1e0f9061049751ac44ab76f73bb694fc>,
         <http://example.org/research/paper/d0593c3db45ba3458a52fcc3891d5498812a277f>,
         <http://example.org/research/paper/d50e39aafcada454318a7237b71d3c0bc62daf94> ;
-    ex:hasAuthor <http://example.org/research/author/145433223>,
-        <http://example.org/research/author/1741623>,
+    ex:hasCoAuthor <http://example.org/research/author/145433223>,
         <http://example.org/research/author/2673479> ;
+    ex:hasCorrespondingAuthor <http://example.org/research/author/1741623> ;
     ex:publishedIn <http://example.org/research/proceedings/ba675c4e-f2dc-454e-9e38-d195732ed2b6-2015> ;
     ex:reviewedBy <http://example.org/research/author/2054838160>,
         <http://example.org/research/author/2381325>,
@@ -1337,14 +1337,14 @@
         <http://example.org/research/paper/f51c080bc77897a0e247cb354a130a7b200e84a9>,
         <http://example.org/research/paper/f77e15f2e0f81d6068b20e2318ad04a5bdf5c2f4>,
         <http://example.org/research/paper/fd88962a567194a839fcd774b0aada8fc23d8154> ;
-    ex:hasAuthor <http://example.org/research/author/144422954>,
+    ex:hasCoAuthor <http://example.org/research/author/144422954>,
         <http://example.org/research/author/2334971>,
-        <http://example.org/research/author/2463711>,
         <http://example.org/research/author/2707311>,
         <http://example.org/research/author/3164984>,
         <http://example.org/research/author/35207399>,
         <http://example.org/research/author/40208399> ;
-    ex:publishedIn <http://example.org/research/volume/c25754e3-36a9-4adb-a390-58907c897425-2> ;
+    ex:hasCorrespondingAuthor <http://example.org/research/author/2463711> ;
+    ex:publishedIn <http://example.org/research/volume/ceac6326-95ad-4e90-a522-b7ab052ea5a4-2015-33> ;
     ex:reviewedBy <http://example.org/research/author/153314895>,
         <http://example.org/research/author/2108966388>,
         <http://example.org/research/author/2157681212>,
@@ -1400,13 +1400,13 @@
         <http://example.org/research/paper/fe8fa387dce455dbc0653bdf13df32802e759960>,
         <http://example.org/research/paper/ff52384bc0f1fe96304207c09e725fdf53963b29>,
         <http://example.org/research/paper/fffd72fe9e05d25989cda12254857de1e2d83ed9> ;
-    ex:hasAuthor <http://example.org/research/author/145510499>,
+    ex:hasCoAuthor <http://example.org/research/author/145510499>,
         <http://example.org/research/author/2108756985>,
         <http://example.org/research/author/2115736466>,
         <http://example.org/research/author/2510306>,
-        <http://example.org/research/author/51417783>,
         <http://example.org/research/author/51917504> ;
-    ex:publishedIn <http://example.org/research/volume/c25754e3-36a9-4adb-a390-58907c897425-2> ;
+    ex:hasCorrespondingAuthor <http://example.org/research/author/51417783> ;
+    ex:publishedIn <http://example.org/research/volume/0aed7a40-85f3-4c66-9e1b-c1556c57001b-2018-13> ;
     ex:reviewedBy <http://example.org/research/author/143911374>,
         <http://example.org/research/author/2153317609>,
         <http://example.org/research/author/2171106811>,
@@ -1425,10 +1425,10 @@
         <http://example.org/research/paper/a743d4bd7f2607468b4bc175b598650c81db6832>,
         <http://example.org/research/paper/cd2d8794a3548eb2b37a4ccb4f41e74ecac2dc7b>,
         <http://example.org/research/paper/e52ee5122ade10ecc0e6750f7f06514a74b61eab> ;
-    ex:hasAuthor <http://example.org/research/author/10313020>,
-        <http://example.org/research/author/2065718>,
+    ex:hasCoAuthor <http://example.org/research/author/2065718>,
         <http://example.org/research/author/2192611227>,
         <http://example.org/research/author/23214019> ;
+    ex:hasCorrespondingAuthor <http://example.org/research/author/10313020> ;
     ex:publishedIn <http://example.org/research/proceedings/8f515bf7-e3c7-4242-85e5-14de4c29e76c-2022> ;
     ex:reviewedBy <http://example.org/research/author/153314895>,
         <http://example.org/research/author/2158490269>,
@@ -1454,7 +1454,7 @@
         <http://example.org/research/paper/8bdde505c6f0cd0e3eecf5347c49285a9415b9ac>,
         <http://example.org/research/paper/be711cd2776384680f906a057a44516ab6fcc031>,
         <http://example.org/research/paper/c6df324933192571935b22f0cdf38a249aea986a> ;
-    ex:hasAuthor <http://example.org/research/author/1403082590>,
+    ex:hasCoAuthor <http://example.org/research/author/1403082590>,
         <http://example.org/research/author/143678972>,
         <http://example.org/research/author/143911374>,
         <http://example.org/research/author/144007515>,
@@ -1462,9 +1462,9 @@
         <http://example.org/research/author/1706922>,
         <http://example.org/research/author/1754091>,
         <http://example.org/research/author/2059572334>,
-        <http://example.org/research/author/2434366>,
         <http://example.org/research/author/2772109> ;
-    ex:publishedIn <http://example.org/research/volume/c25754e3-36a9-4adb-a390-58907c897425-2> ;
+    ex:hasCorrespondingAuthor <http://example.org/research/author/2434366> ;
+    ex:publishedIn <http://example.org/research/volume/f80a2e54-1332-48bf-9634-4b2f77fca809-2023-5> ;
     ex:reviewedBy <http://example.org/research/author/1663632797>,
         <http://example.org/research/author/1726596>,
         <http://example.org/research/author/2973714> ;
@@ -1497,12 +1497,12 @@
         <http://example.org/research/paper/e838a252521713d99d8364b02f21476588cb2e26>,
         <http://example.org/research/paper/e9558a3a8423caf1a4450d96e4b32e5a1da2515c>,
         <http://example.org/research/paper/ed298d4f10cb8791698ec48649204f6e2a63c54f> ;
-    ex:hasAuthor <http://example.org/research/author/1686294>,
+    ex:hasCoAuthor <http://example.org/research/author/1686294>,
         <http://example.org/research/author/1774041>,
-        <http://example.org/research/author/1792856>,
         <http://example.org/research/author/29552860>,
         <http://example.org/research/author/3090789>,
         <http://example.org/research/author/7617146> ;
+    ex:hasCorrespondingAuthor <http://example.org/research/author/1792856> ;
     ex:publishedIn <http://example.org/research/proceedings/c25754e3-36a9-4adb-a390-58907c897425-2013> ;
     ex:reviewedBy <http://example.org/research/author/153314895>,
         <http://example.org/research/author/1719119>,
@@ -1530,8 +1530,8 @@
         <http://example.org/research/paper/e5ca1408578b11e416952ea10d955304f28cfdc3>,
         <http://example.org/research/paper/ec34ab9fa5bc8f0776a197578967393ee4d9dae4>,
         <http://example.org/research/paper/f5b92cd455a547a3a39031e8c0f915c180a3338b> ;
-    ex:hasAuthor <http://example.org/research/author/121066428>,
-        <http://example.org/research/author/2803317> ;
+    ex:hasCoAuthor <http://example.org/research/author/2803317> ;
+    ex:hasCorrespondingAuthor <http://example.org/research/author/121066428> ;
     ex:publishedIn <http://example.org/research/proceedings/ef1e8736-ed1b-48f1-bf5f-477f261a4e7b-2017> ;
     ex:reviewedBy <http://example.org/research/author/2126581481>,
         <http://example.org/research/author/2321412875>,
@@ -1557,7 +1557,7 @@
         <http://example.org/research/paper/9b822f1a3f30a6c9656b76f90127c2d5dea34b54>,
         <http://example.org/research/paper/b6f58920496e7e528d31948667693cb9c0c5069f>,
         <http://example.org/research/paper/f9915bbc0f466bddc0bca6f253c957a1f5e90d32> ;
-    ex:hasAuthor <http://example.org/research/author/145104321>,
+    ex:hasCoAuthor <http://example.org/research/author/145104321>,
         <http://example.org/research/author/145843448>,
         <http://example.org/research/author/1877327478>,
         <http://example.org/research/author/2108691840>,
@@ -1565,8 +1565,8 @@
         <http://example.org/research/author/2152209915>,
         <http://example.org/research/author/2157681212>,
         <http://example.org/research/author/2157843743>,
-        <http://example.org/research/author/2158490269>,
         <http://example.org/research/author/47149500> ;
+    ex:hasCorrespondingAuthor <http://example.org/research/author/2158490269> ;
     ex:publishedIn <http://example.org/research/proceedings/2cbf9479-e1fa-4c75-81f6-7103e18156ca-2020> ;
     ex:reviewedBy <http://example.org/research/author/1686294>,
         <http://example.org/research/author/2310211>,
@@ -1600,10 +1600,10 @@
         <http://example.org/research/paper/b51263478c16628cc73f269263e6bbf470657225>,
         <http://example.org/research/paper/cecde56f93738e1d2d1dcb32464881920fcb54ed>,
         <http://example.org/research/paper/fced633b4a5cee7d3144edec3d80deee95a80c54> ;
-    ex:hasAuthor <http://example.org/research/author/2112638989>,
+    ex:hasCoAuthor <http://example.org/research/author/2112638989>,
         <http://example.org/research/author/34701398>,
-        <http://example.org/research/author/46255467>,
         <http://example.org/research/author/49673164> ;
+    ex:hasCorrespondingAuthor <http://example.org/research/author/46255467> ;
     ex:publishedIn <http://example.org/research/proceedings/272e9ea4-5f3f-4a33-ba63-96d72e445a96-2017> ;
     ex:reviewedBy <http://example.org/research/author/1778015>,
         <http://example.org/research/author/2109512262>,
@@ -1651,12 +1651,12 @@
         <http://example.org/research/paper/f2037731d906ebd4d1557cb155f4336b631b77ee>,
         <http://example.org/research/paper/f695d3a1f4c8ebb0484d8d7c1e645cadba6bf0d5>,
         <http://example.org/research/paper/f884182b4b2388990d1836a18823a0109c663ac3> ;
-    ex:hasAuthor <http://example.org/research/author/1416519437>,
+    ex:hasCoAuthor <http://example.org/research/author/1416519437>,
         <http://example.org/research/author/2044382>,
         <http://example.org/research/author/2729382>,
         <http://example.org/research/author/3032058>,
-        <http://example.org/research/author/3372924>,
         <http://example.org/research/author/46398863> ;
+    ex:hasCorrespondingAuthor <http://example.org/research/author/3372924> ;
     ex:publishedIn <http://example.org/research/proceedings/87fc9c3c-cc7f-42aa-ba71-2700729a6788-2019> ;
     ex:reviewedBy <http://example.org/research/author/113398129>,
         <http://example.org/research/author/1754091>,
@@ -1682,9 +1682,9 @@
         <http://example.org/research/paper/dad2c421d235e808960b48ee5522b231a7ca90d3>,
         <http://example.org/research/paper/e5abea8624d69652855fcbc956b125cdec2b88ad>,
         <http://example.org/research/paper/eb6c3dfcea00e8724a27692affaed83289b59130> ;
-    ex:hasAuthor <http://example.org/research/author/1388632905>,
-        <http://example.org/research/author/2094667365>,
+    ex:hasCoAuthor <http://example.org/research/author/1388632905>,
         <http://example.org/research/author/2840539> ;
+    ex:hasCorrespondingAuthor <http://example.org/research/author/2094667365> ;
     ex:publishedIn <http://example.org/research/proceedings/71826259-dbc2-44dc-9ffa-abf8abd1514e-2019> ;
     ex:reviewedBy <http://example.org/research/author/150358651>,
         <http://example.org/research/author/2144151933>,
@@ -1709,12 +1709,12 @@
         <http://example.org/research/paper/b2ccf2694ce642cb94b700fe617eec7aad663214>,
         <http://example.org/research/paper/da4aa7cf078ba5c8e7fb8c75c375609d5f046288>,
         <http://example.org/research/paper/e7fa111c4bbed75fb67e7f02c31b9669b2d2e802> ;
-    ex:hasAuthor <http://example.org/research/author/2108248686>,
+    ex:hasCoAuthor <http://example.org/research/author/2108248686>,
         <http://example.org/research/author/2117925465>,
         <http://example.org/research/author/2142659443>,
         <http://example.org/research/author/2153317609>,
-        <http://example.org/research/author/30188257>,
-        <http://example.org/research/author/98831679> ;
+        <http://example.org/research/author/30188257> ;
+    ex:hasCorrespondingAuthor <http://example.org/research/author/98831679> ;
     ex:reviewedBy <http://example.org/research/author/123816348>,
         <http://example.org/research/author/144554647>,
         <http://example.org/research/author/144615268>,
@@ -1745,11 +1745,11 @@
         <http://example.org/research/paper/edb54ffbcfe1c12c7b6d041a22641f62ef7b13bd>,
         <http://example.org/research/paper/f993efd00d1dc2d5a07d05a1d5d7eeca23d0cd89>,
         <http://example.org/research/paper/febbe50d95e27e99c46a0d431dffd371203e57a4> ;
-    ex:hasAuthor <http://example.org/research/author/145644753>,
+    ex:hasCoAuthor <http://example.org/research/author/145644753>,
         <http://example.org/research/author/1709661>,
         <http://example.org/research/author/1719119>,
-        <http://example.org/research/author/2114796246>,
         <http://example.org/research/author/26435742> ;
+    ex:hasCorrespondingAuthor <http://example.org/research/author/2114796246> ;
     ex:publishedIn <http://example.org/research/proceedings/74f47cf8-2839-4a56-959a-524dd0ed9e3e-2018> ;
     ex:reviewedBy <http://example.org/research/author/144422954>,
         <http://example.org/research/author/2054289955>,
@@ -1799,12 +1799,12 @@
         <http://example.org/research/paper/e95b3db15c8be04f4b53c1dfdd8504eed4fe9663>,
         <http://example.org/research/paper/f96a2e6a78bef068f4fdc1f1a17a86aeb01b0bb0>,
         <http://example.org/research/paper/fe47e6ab0ea1402198b3f2fc597a0f5b5db16c75> ;
-    ex:hasAuthor <http://example.org/research/author/144589756>,
+    ex:hasCoAuthor <http://example.org/research/author/144589756>,
         <http://example.org/research/author/151167094>,
         <http://example.org/research/author/2116679709>,
-        <http://example.org/research/author/3425847>,
         <http://example.org/research/author/51255623> ;
-    ex:publishedIn <http://example.org/research/volume/c25754e3-36a9-4adb-a390-58907c897425-2> ;
+    ex:hasCorrespondingAuthor <http://example.org/research/author/3425847> ;
+    ex:publishedIn <http://example.org/research/volume/7e0547d5-ec21-470f-bdc9-b7615fc83a29-2019-4> ;
     ex:reviewedBy <http://example.org/research/author/144521155>,
         <http://example.org/research/author/2123810691>,
         <http://example.org/research/author/2893252>,
@@ -1854,11 +1854,11 @@
         <http://example.org/research/paper/f229a2c61a958b335fa13b6d965fbd2c67ac3ede>,
         <http://example.org/research/paper/f337e82b63d507d9ea8874792cef8f88f14add63>,
         <http://example.org/research/paper/nan> ;
-    ex:hasAuthor <http://example.org/research/author/144019071>,
+    ex:hasCoAuthor <http://example.org/research/author/144019071>,
         <http://example.org/research/author/144554647>,
-        <http://example.org/research/author/153158488>,
         <http://example.org/research/author/1800925> ;
-    ex:publishedIn <http://example.org/research/volume/c25754e3-36a9-4adb-a390-58907c897425-2> ;
+    ex:hasCorrespondingAuthor <http://example.org/research/author/153158488> ;
+    ex:publishedIn <http://example.org/research/volume/c6840156-ee10-4d78-8832-7f8909811576-2015-27> ;
     ex:reviewedBy <http://example.org/research/author/1903751380>,
         <http://example.org/research/author/2114796246>,
         <http://example.org/research/author/49673164> ;
@@ -1878,10 +1878,10 @@
         <http://example.org/research/paper/d97bc9f753d6ec0f9dd9a4fc1321c874f66da3d0>,
         <http://example.org/research/paper/e67a2817089312746d69b38ce9abfdc4b1bc69c3>,
         <http://example.org/research/paper/e9b86ce5d65b75ea527f6a0a24c8ecace0b76aac> ;
-    ex:hasAuthor <http://example.org/research/author/144521155>,
-        <http://example.org/research/author/2057440722>,
-        <http://example.org/research/author/2058456649> ;
-    ex:publishedIn <http://example.org/research/volume/c25754e3-36a9-4adb-a390-58907c897425-2> ;
+    ex:hasCoAuthor <http://example.org/research/author/144521155>,
+        <http://example.org/research/author/2057440722> ;
+    ex:hasCorrespondingAuthor <http://example.org/research/author/2058456649> ;
+    ex:publishedIn <http://example.org/research/volume/396366a4-a1ba-422b-a9ff-1471ee08eab8-2019-24> ;
     ex:reviewedBy <http://example.org/research/author/145104321>,
         <http://example.org/research/author/2152692124>,
         <http://example.org/research/author/2164445100> ;
@@ -1907,8 +1907,8 @@
         <http://example.org/research/paper/d661147ff7bd0b31c52b0bbb62044056063c8289>,
         <http://example.org/research/paper/d8bba09b59f3a3d267b51d4b45c551193215be4c>,
         <http://example.org/research/paper/f322336af4b55ff65525222fe2b2fe6110120ab3> ;
-    ex:hasAuthor <http://example.org/research/author/2089508093>,
-        <http://example.org/research/author/9207924> ;
+    ex:hasCoAuthor <http://example.org/research/author/9207924> ;
+    ex:hasCorrespondingAuthor <http://example.org/research/author/2089508093> ;
     ex:publishedIn <http://example.org/research/proceedings/d6dd0471-263c-45b1-8c75-ca4c683398e2-2018> ;
     ex:reviewedBy <http://example.org/research/author/1719119>,
         <http://example.org/research/author/2065718>,
@@ -1942,9 +1942,9 @@
         <http://example.org/research/paper/c3307561ed28616486c8224a2a4cd111d0a4fcaa>,
         <http://example.org/research/paper/de668d8e1f51427a3f21bfdbed56d67eca76a899>,
         <http://example.org/research/paper/fc9ec61f9d20dcfe2f7283236b3f4fb85955c7cd> ;
-    ex:hasAuthor <http://example.org/research/author/1398279766>,
-        <http://example.org/research/author/1689847>,
+    ex:hasCoAuthor <http://example.org/research/author/1689847>,
         <http://example.org/research/author/1788879> ;
+    ex:hasCorrespondingAuthor <http://example.org/research/author/1398279766> ;
     ex:publishedIn <http://example.org/research/proceedings/4fc0603b-2ba2-4512-94fa-ab87d02cb52a-2015> ;
     ex:reviewedBy <http://example.org/research/author/1483744000>,
         <http://example.org/research/author/2059572334>,
@@ -1984,13 +1984,13 @@
         <http://example.org/research/paper/ea525ed0fd700837be450b512c0d86d3803e49aa>,
         <http://example.org/research/paper/ea6749a379702b72b43151a988f686d191ed5191>,
         <http://example.org/research/paper/f2c2dd19e3cf293b3eac8caecf114d168524670e> ;
-    ex:hasAuthor <http://example.org/research/author/113272803>,
+    ex:hasCoAuthor <http://example.org/research/author/113272803>,
         <http://example.org/research/author/114367405>,
-        <http://example.org/research/author/115694632>,
         <http://example.org/research/author/2069668457>,
         <http://example.org/research/author/2310211>,
         <http://example.org/research/author/3257323>,
         <http://example.org/research/author/74882299> ;
+    ex:hasCorrespondingAuthor <http://example.org/research/author/115694632> ;
     ex:publishedIn <http://example.org/research/proceedings/7ddefda0-174f-499a-9dce-855879dd01b7-2019> ;
     ex:reviewedBy <http://example.org/research/author/2051972259>,
         <http://example.org/research/author/2059572334>,
@@ -2034,10 +2034,10 @@
         <http://example.org/research/paper/e6db630a421874030216db8ba221d393f2e91d75>,
         <http://example.org/research/paper/e8c1b6486d7eb3878cf1c51dd8d2a0edeaaf3a6c>,
         <http://example.org/research/paper/f628fe05bcfaa59d56a740d1cf317f413e35e1a8> ;
-    ex:hasAuthor <http://example.org/research/author/145366422>,
-        <http://example.org/research/author/2462060>,
+    ex:hasCoAuthor <http://example.org/research/author/2462060>,
         <http://example.org/research/author/32682297> ;
-    ex:publishedIn <http://example.org/research/volume/c25754e3-36a9-4adb-a390-58907c897425-2> ;
+    ex:hasCorrespondingAuthor <http://example.org/research/author/145366422> ;
+    ex:publishedIn <http://example.org/research/volume/4cce60a8-2106-4240-bece-fb6488df6bd1-2017-60-14> ;
     ex:reviewedBy <http://example.org/research/author/2054289955>,
         <http://example.org/research/author/34629652>,
         <http://example.org/research/author/3515169>,
@@ -2103,11 +2103,11 @@ In this paper, we introduce a new distributed graph database, called Weaver, whi
         <http://example.org/research/paper/ebc740050939db7197ec78ff48e0559fb1f1c5c0>,
         <http://example.org/research/paper/ee59e551784950560af0088a50c84df4d8428890>,
         <http://example.org/research/paper/f8821035b073e104f8a0e102fc5da76b1198fcf0> ;
-    ex:hasAuthor <http://example.org/research/author/2056568916>,
-        <http://example.org/research/author/2109875>,
+    ex:hasCoAuthor <http://example.org/research/author/2109875>,
         <http://example.org/research/author/3326762>,
         <http://example.org/research/author/34629652> ;
-    ex:publishedIn <http://example.org/research/volume/c25754e3-36a9-4adb-a390-58907c897425-2> ;
+    ex:hasCorrespondingAuthor <http://example.org/research/author/2056568916> ;
+    ex:publishedIn <http://example.org/research/volume/fcbcaf18-8ab1-43e1-a973-604bbc7e344e-2015-9> ;
     ex:reviewedBy <http://example.org/research/author/1768034>,
         <http://example.org/research/author/2677700>,
         <http://example.org/research/author/40231586> ;
@@ -2158,11 +2158,11 @@ In this paper, we introduce a new distributed graph database, called Weaver, whi
         <http://example.org/research/paper/ee6f23590783adec7cf6b2030c6a46f3117a708e>,
         <http://example.org/research/paper/f4ece5577726a68b3a65c83f74b479a85f95f630>,
         <http://example.org/research/paper/f7e0bf1c4247a1ebf8889382757cab17f28ff4cd> ;
-    ex:hasAuthor <http://example.org/research/author/143758771>,
-        <http://example.org/research/author/1483744000>,
+    ex:hasCoAuthor <http://example.org/research/author/1483744000>,
         <http://example.org/research/author/3240937>,
         <http://example.org/research/author/39894237>,
         <http://example.org/research/author/89129886> ;
+    ex:hasCorrespondingAuthor <http://example.org/research/author/143758771> ;
     ex:reviewedBy <http://example.org/research/author/121865955>,
         <http://example.org/research/author/1398279766>,
         <http://example.org/research/author/1719119>,
@@ -2254,10 +2254,10 @@ In this paper, we introduce a new distributed graph database, called Weaver, whi
         <http://example.org/research/paper/ee286cca1726f4ca453a7a40447a2a75774f23e7>,
         <http://example.org/research/paper/fced633b4a5cee7d3144edec3d80deee95a80c54>,
         <http://example.org/research/paper/nan> ;
-    ex:hasAuthor <http://example.org/research/author/2248549493>,
-        <http://example.org/research/author/2249671765>,
-        <http://example.org/research/author/3515169> ;
-    ex:publishedIn <http://example.org/research/volume/c25754e3-36a9-4adb-a390-58907c897425-2> ;
+    ex:hasCoAuthor <http://example.org/research/author/2248549493>,
+        <http://example.org/research/author/2249671765> ;
+    ex:hasCorrespondingAuthor <http://example.org/research/author/3515169> ;
+    ex:publishedIn <http://example.org/research/volume/1de6e987-7434-4277-b939-ccb29843e936-2017-15> ;
     ex:reviewedBy <http://example.org/research/author/2053320598>,
         <http://example.org/research/author/2116502347>,
         <http://example.org/research/author/2142659443>,
@@ -2298,9 +2298,9 @@ In this paper, we introduce a new distributed graph database, called Weaver, whi
         <http://example.org/research/paper/d613ecd6bd7f12d956680f5d05b4b658758fa2fc>,
         <http://example.org/research/paper/e21842ffd9ff9ec4a4f60db96ebb6320a932fb07>,
         <http://example.org/research/paper/eef23d76e175c0cff8e81ffcb2721c10539c8cbd> ;
-    ex:hasAuthor <http://example.org/research/author/2893252>,
-        <http://example.org/research/author/30492227> ;
-    ex:publishedIn <http://example.org/research/volume/c25754e3-36a9-4adb-a390-58907c897425-2> ;
+    ex:hasCoAuthor <http://example.org/research/author/2893252> ;
+    ex:hasCorrespondingAuthor <http://example.org/research/author/30492227> ;
+    ex:publishedIn <http://example.org/research/volume/dbbda9ef-0504-4875-b893-5c964f6b8f0e-2017-32> ;
     ex:reviewedBy <http://example.org/research/author/2142659443>,
         <http://example.org/research/author/2157681212>,
         <http://example.org/research/author/24812041> ;
@@ -2367,10 +2367,10 @@ In this paper, we introduce a new distributed graph database, called Weaver, whi
         <http://example.org/research/paper/de3503928d7b056bee3d544c782ca601ad7a69db>,
         <http://example.org/research/paper/e67a2817089312746d69b38ce9abfdc4b1bc69c3>,
         <http://example.org/research/paper/fc8b9e774df4c4ab1c52f7fc7d538a4a4f464d61> ;
-    ex:hasAuthor <http://example.org/research/author/2163752>,
-        <http://example.org/research/author/2574504>,
+    ex:hasCoAuthor <http://example.org/research/author/2163752>,
         <http://example.org/research/author/3415440> ;
-    ex:publishedIn <http://example.org/research/volume/c25754e3-36a9-4adb-a390-58907c897425-2> ;
+    ex:hasCorrespondingAuthor <http://example.org/research/author/2574504> ;
+    ex:publishedIn <http://example.org/research/volume/fcbcaf18-8ab1-43e1-a973-604bbc7e344e-2018-12> ;
     ex:reviewedBy <http://example.org/research/author/2053320598>,
         <http://example.org/research/author/47149500>,
         <http://example.org/research/author/82495098>,
@@ -2403,10 +2403,10 @@ In this paper, we introduce a new distributed graph database, called Weaver, whi
         <http://example.org/research/paper/ebc740050939db7197ec78ff48e0559fb1f1c5c0>,
         <http://example.org/research/paper/f247b81b8b730ccb38789750c241032a6d207742>,
         <http://example.org/research/paper/f7098ec919182181cf6146ee4f49777556fb5b05> ;
-    ex:hasAuthor <http://example.org/research/author/1505708061>,
-        <http://example.org/research/author/1783781>,
+    ex:hasCoAuthor <http://example.org/research/author/1783781>,
         <http://example.org/research/author/26391899> ;
-    ex:publishedIn <http://example.org/research/volume/c25754e3-36a9-4adb-a390-58907c897425-2> ;
+    ex:hasCorrespondingAuthor <http://example.org/research/author/1505708061> ;
+    ex:publishedIn <http://example.org/research/volume/fcbcaf18-8ab1-43e1-a973-604bbc7e344e-2021-14> ;
     ex:reviewedBy <http://example.org/research/author/1398279766>,
         <http://example.org/research/author/2109512262>,
         <http://example.org/research/author/49673164> ;
@@ -2432,15 +2432,15 @@ In this paper, we introduce a new distributed graph database, called Weaver, whi
         <http://example.org/research/paper/e25a4ece79160c9817a38e80f77d729ca7487d48>,
         <http://example.org/research/paper/e95351c9a2bc8ca4619a02e51c3c2caa8791ed51>,
         <http://example.org/research/paper/f358e5bc68538934525042fb70ce88153ccb4bdc> ;
-    ex:hasAuthor <http://example.org/research/author/1943322867>,
+    ex:hasCoAuthor <http://example.org/research/author/1943322867>,
         <http://example.org/research/author/2108966388>,
         <http://example.org/research/author/2114147314>,
         <http://example.org/research/author/2144151933>,
         <http://example.org/research/author/2218569240>,
         <http://example.org/research/author/24812041>,
-        <http://example.org/research/author/2677700>,
         <http://example.org/research/author/3358986>,
         <http://example.org/research/author/7806657> ;
+    ex:hasCorrespondingAuthor <http://example.org/research/author/2677700> ;
     ex:publishedIn <http://example.org/research/proceedings/313e0052-5427-47c4-8468-527a82399583-2017> ;
     ex:reviewedBy <http://example.org/research/author/2108248686>,
         <http://example.org/research/author/2148303656>,
@@ -2453,95 +2453,95 @@ In this paper, we introduce a new distributed graph database, called Weaver, whi
     ex:name "bioRxiv"^^xsd:string .
 
 <http://example.org/research/venue/0aed7a40-85f3-4c66-9e1b-c1556c57001b> a ex:Journal ;
-    ex:hasVolume <http://example.org/research/volume/0aed7a40-85f3-4c66-9e1b-c1556c57001b-13> ;
+    ex:hasVolume <http://example.org/research/volume/0aed7a40-85f3-4c66-9e1b-c1556c57001b-2018-13> ;
     ex:name "PLoS ONE"^^xsd:string .
 
 <http://example.org/research/venue/136edf8d-0f88-4c2c-830f-461c6a9b842e> a ex:Journal ;
     ex:name "Applied Sciences"^^xsd:string .
 
 <http://example.org/research/venue/1de6e987-7434-4277-b939-ccb29843e936> a ex:Journal ;
-    ex:hasVolume <http://example.org/research/volume/1de6e987-7434-4277-b939-ccb29843e936-15> ;
+    ex:hasVolume <http://example.org/research/volume/1de6e987-7434-4277-b939-ccb29843e936-2017-15> ;
     ex:name "Genomics & Informatics"^^xsd:string .
 
 <http://example.org/research/venue/3215af4b-a40f-474d-bc19-27c154ff31a3> a ex:Journal ;
-    ex:hasVolume <http://example.org/research/volume/3215af4b-a40f-474d-bc19-27c154ff31a3-2018> ;
+    ex:hasVolume <http://example.org/research/volume/3215af4b-a40f-474d-bc19-27c154ff31a3-2018-2018> ;
     ex:name "EURASIP Journal on Wireless Communications and Networking"^^xsd:string .
 
 <http://example.org/research/venue/396366a4-a1ba-422b-a9ff-1471ee08eab8> a ex:Journal ;
-    ex:hasVolume <http://example.org/research/volume/396366a4-a1ba-422b-a9ff-1471ee08eab8-24> ;
+    ex:hasVolume <http://example.org/research/volume/396366a4-a1ba-422b-a9ff-1471ee08eab8-2019-24> ;
     ex:name "Acta Cybernetica"^^xsd:string .
 
 <http://example.org/research/venue/41c3b19b-0bac-418a-89dc-2fa894c12fef> a ex:Journal ;
-    ex:hasVolume <http://example.org/research/volume/41c3b19b-0bac-418a-89dc-2fa894c12fef-14> ;
+    ex:hasVolume <http://example.org/research/volume/41c3b19b-0bac-418a-89dc-2fa894c12fef-2020-14> ;
     ex:name "Applied Geomatics"^^xsd:string .
 
 <http://example.org/research/venue/4cbc2987-6254-4668-b85b-aeabd7ff62ef> a ex:Journal ;
-    ex:hasVolume <http://example.org/research/volume/4cbc2987-6254-4668-b85b-aeabd7ff62ef-2> ;
+    ex:hasVolume <http://example.org/research/volume/4cbc2987-6254-4668-b85b-aeabd7ff62ef-2022-2> ;
     ex:name "Nature Computational Science"^^xsd:string .
 
 <http://example.org/research/venue/4cce60a8-2106-4240-bece-fb6488df6bd1> a ex:Journal ;
-    ex:hasVolume <http://example.org/research/volume/4cce60a8-2106-4240-bece-fb6488df6bd1-60-14> ;
+    ex:hasVolume <http://example.org/research/volume/4cce60a8-2106-4240-bece-fb6488df6bd1-2017-60-14> ;
     ex:name "Journal of Medicinal Chemistry"^^xsd:string .
 
 <http://example.org/research/venue/7959fdab-81a2-4da4-8f2a-bd5855de5c6e> a ex:Journal ;
-    ex:hasVolume <http://example.org/research/volume/7959fdab-81a2-4da4-8f2a-bd5855de5c6e-12> ;
+    ex:hasVolume <http://example.org/research/volume/7959fdab-81a2-4da4-8f2a-bd5855de5c6e-2018-12> ;
     ex:name "BMC Systems Biology"^^xsd:string .
 
 <http://example.org/research/venue/7e0547d5-ec21-470f-bdc9-b7615fc83a29> a ex:Journal ;
-    ex:hasVolume <http://example.org/research/volume/7e0547d5-ec21-470f-bdc9-b7615fc83a29-4> ;
+    ex:hasVolume <http://example.org/research/volume/7e0547d5-ec21-470f-bdc9-b7615fc83a29-2019-4> ;
     ex:name "Data Science and Engineering"^^xsd:string .
 
 <http://example.org/research/venue/9bc76c9a-64ac-4dd9-902e-80fccca1833f> a ex:Journal ;
-    ex:hasVolume <http://example.org/research/volume/9bc76c9a-64ac-4dd9-902e-80fccca1833f-46> ;
+    ex:hasVolume <http://example.org/research/volume/9bc76c9a-64ac-4dd9-902e-80fccca1833f-2021-46> ;
     ex:name "The Arabian journal for science and engineering"^^xsd:string .
 
 <http://example.org/research/venue/bb899a20-6789-46e4-9ed0-c7c284028fd9> a ex:Journal ;
-    ex:hasVolume <http://example.org/research/volume/bb899a20-6789-46e4-9ed0-c7c284028fd9-9> ;
+    ex:hasVolume <http://example.org/research/volume/bb899a20-6789-46e4-9ed0-c7c284028fd9-2021-9> ;
     ex:name "JMIR mHealth and uHealth"^^xsd:string .
 
 <http://example.org/research/venue/bc01813d-0622-430d-a5f1-416b7332b85e> a ex:Journal ;
-    ex:hasVolume <http://example.org/research/volume/bc01813d-0622-430d-a5f1-416b7332b85e-10> ;
+    ex:hasVolume <http://example.org/research/volume/bc01813d-0622-430d-a5f1-416b7332b85e-2017-10> ;
     ex:name "International Journal of Computational Intelligence Systems"^^xsd:string .
 
 <http://example.org/research/venue/c18ca9ea-c394-46d2-b458-30dcf166dabb> a ex:Journal ;
     ex:name "ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences"^^xsd:string .
 
 <http://example.org/research/venue/c6840156-ee10-4d78-8832-7f8909811576> a ex:Journal ;
-    ex:hasVolume <http://example.org/research/volume/c6840156-ee10-4d78-8832-7f8909811576-27> ;
+    ex:hasVolume <http://example.org/research/volume/c6840156-ee10-4d78-8832-7f8909811576-2015-27> ;
     ex:name "IEEE Transactions on Knowledge and Data Engineering"^^xsd:string .
 
 <http://example.org/research/venue/ccd8e532-73c6-414f-bc91-271bbb2933e2> a ex:Journal ;
     ex:name "Electronics"^^xsd:string .
 
 <http://example.org/research/venue/ceac6326-95ad-4e90-a522-b7ab052ea5a4> a ex:Journal ;
-    ex:hasVolume <http://example.org/research/volume/ceac6326-95ad-4e90-a522-b7ab052ea5a4-33> ;
+    ex:hasVolume <http://example.org/research/volume/ceac6326-95ad-4e90-a522-b7ab052ea5a4-2015-33> ;
     ex:name "Distributed and parallel databases"^^xsd:string .
 
 <http://example.org/research/venue/d029f971-f74c-41ca-8373-1b713414c797> a ex:Journal ;
-    ex:hasVolume <http://example.org/research/volume/d029f971-f74c-41ca-8373-1b713414c797-22> ;
+    ex:hasVolume <http://example.org/research/volume/d029f971-f74c-41ca-8373-1b713414c797-2021-22> ;
     ex:name "Journal of Computing and Information Science in Engineering"^^xsd:string .
 
 <http://example.org/research/venue/dbbda9ef-0504-4875-b893-5c964f6b8f0e> a ex:Journal ;
-    ex:hasVolume <http://example.org/research/volume/dbbda9ef-0504-4875-b893-5c964f6b8f0e-32> ;
+    ex:hasVolume <http://example.org/research/volume/dbbda9ef-0504-4875-b893-5c964f6b8f0e-2017-32> ;
     ex:name "IEEE Transactions on Power Systems"^^xsd:string .
 
 <http://example.org/research/venue/f1d0ef3d-4e90-41e9-b454-f589a933654f> a ex:Journal ;
-    ex:hasVolume <http://example.org/research/volume/f1d0ef3d-4e90-41e9-b454-f589a933654f-26> ;
+    ex:hasVolume <http://example.org/research/volume/f1d0ef3d-4e90-41e9-b454-f589a933654f-2022-26> ;
     ex:name "Cluster Computing"^^xsd:string .
 
 <http://example.org/research/venue/f4784c7b-6592-49eb-a116-7290e0398868> a ex:Journal ;
     ex:name "Journal of Advances in Information Technology"^^xsd:string .
 
 <http://example.org/research/venue/f80a2e54-1332-48bf-9634-4b2f77fca809> a ex:Journal ;
-    ex:hasVolume <http://example.org/research/volume/f80a2e54-1332-48bf-9634-4b2f77fca809-5> ;
+    ex:hasVolume <http://example.org/research/volume/f80a2e54-1332-48bf-9634-4b2f77fca809-2023-5> ;
     ex:name "Data Intelligence"^^xsd:string .
 
 <http://example.org/research/venue/fcbcaf18-8ab1-43e1-a973-604bbc7e344e> a ex:Journal ;
-    ex:hasVolume <http://example.org/research/volume/fcbcaf18-8ab1-43e1-a973-604bbc7e344e-12>,
-        <http://example.org/research/volume/fcbcaf18-8ab1-43e1-a973-604bbc7e344e-14>,
-        <http://example.org/research/volume/fcbcaf18-8ab1-43e1-a973-604bbc7e344e-15>,
-        <http://example.org/research/volume/fcbcaf18-8ab1-43e1-a973-604bbc7e344e-16>,
-        <http://example.org/research/volume/fcbcaf18-8ab1-43e1-a973-604bbc7e344e-9> ;
+    ex:hasVolume <http://example.org/research/volume/fcbcaf18-8ab1-43e1-a973-604bbc7e344e-2015-9>,
+        <http://example.org/research/volume/fcbcaf18-8ab1-43e1-a973-604bbc7e344e-2018-12>,
+        <http://example.org/research/volume/fcbcaf18-8ab1-43e1-a973-604bbc7e344e-2021-14>,
+        <http://example.org/research/volume/fcbcaf18-8ab1-43e1-a973-604bbc7e344e-2022-15>,
+        <http://example.org/research/volume/fcbcaf18-8ab1-43e1-a973-604bbc7e344e-2023-16> ;
     ex:name "Proceedings of the VLDB Endowment"^^xsd:string .
 
 <http://example.org/research/author/10313020> a ex:Author ;
@@ -3057,9 +3057,9 @@ In this paper, we introduce a new distributed graph database, called Weaver, whi
         <http://example.org/research/paper/c5f907ac79e12939b020a67b55fda56bcbb1f623>,
         <http://example.org/research/paper/e3de50039a9c6a8afe3b9b5c9409e18a9fd6fa6e>,
         <http://example.org/research/paper/eb16407586444c0c089e6048d9a19bf8f90172ea> ;
-    ex:hasAuthor <http://example.org/research/author/2148303656>,
-        <http://example.org/research/author/3010622>,
+    ex:hasCoAuthor <http://example.org/research/author/3010622>,
         <http://example.org/research/author/66913593> ;
+    ex:hasCorrespondingAuthor <http://example.org/research/author/2148303656> ;
     ex:reviewedBy <http://example.org/research/author/2117925465>,
         <http://example.org/research/author/2140474907>,
         <http://example.org/research/author/2157513188>,
@@ -3079,12 +3079,12 @@ In this paper, we introduce a new distributed graph database, called Weaver, whi
         <http://example.org/research/paper/b6300a2bbc391d654a359a1c612805602d089892>,
         <http://example.org/research/paper/bb788ca4ba1b3950b039fe2b7652fe3be47475da>,
         <http://example.org/research/paper/ccc921bea937b33a6c11856b5838be27119eecf4> ;
-    ex:hasAuthor <http://example.org/research/author/143909963>,
+    ex:hasCoAuthor <http://example.org/research/author/143909963>,
         <http://example.org/research/author/1768034>,
         <http://example.org/research/author/1778015>,
-        <http://example.org/research/author/2059684397>,
         <http://example.org/research/author/2061622257>,
         <http://example.org/research/author/2540495> ;
+    ex:hasCorrespondingAuthor <http://example.org/research/author/2059684397> ;
     ex:publishedIn <http://example.org/research/proceedings/dea8d7a8-c89e-4de9-bde3-0787594a055f-2017> ;
     ex:reviewedBy <http://example.org/research/author/145366422>,
         <http://example.org/research/author/1903751380>,
@@ -3108,12 +3108,12 @@ In this paper, we introduce a new distributed graph database, called Weaver, whi
         <http://example.org/research/paper/94944bad56c65bf24d5b7753485441702d4bca46>,
         <http://example.org/research/paper/e9624d3bfc5e0b30bce7414fe052d193ee793ed0>,
         <http://example.org/research/paper/f0d56b6a8ee88bdebed756e3491bc86037186f71> ;
-    ex:hasAuthor <http://example.org/research/author/1500655986>,
+    ex:hasCoAuthor <http://example.org/research/author/1500655986>,
         <http://example.org/research/author/1903751380>,
         <http://example.org/research/author/1904199594>,
         <http://example.org/research/author/1904203865>,
-        <http://example.org/research/author/2069559207>,
         <http://example.org/research/author/40915325> ;
+    ex:hasCorrespondingAuthor <http://example.org/research/author/2069559207> ;
     ex:publishedIn <http://example.org/research/proceedings/f1ab8d75-7f15-4bb4-ad88-e834ec6ed604-2020> ;
     ex:reviewedBy <http://example.org/research/author/2142659443>,
         <http://example.org/research/author/2145413970>,
@@ -3150,10 +3150,10 @@ In this paper, we introduce a new distributed graph database, called Weaver, whi
         <http://example.org/research/paper/e32ac9710564142bc712f1ed58c79f9d918fa9ef>,
         <http://example.org/research/paper/e726220e1243f625d4532db44009660d4e6734ca>,
         <http://example.org/research/paper/fd886110a1eff26e1203ac219d4c07ee4999ecae> ;
-    ex:hasAuthor <http://example.org/research/author/2070468032>,
-        <http://example.org/research/author/70209653>,
+    ex:hasCoAuthor <http://example.org/research/author/2070468032>,
         <http://example.org/research/author/7790877> ;
-    ex:publishedIn <http://example.org/research/volume/c25754e3-36a9-4adb-a390-58907c897425-2> ;
+    ex:hasCorrespondingAuthor <http://example.org/research/author/70209653> ;
+    ex:publishedIn <http://example.org/research/volume/9bc76c9a-64ac-4dd9-902e-80fccca1833f-2021-46> ;
     ex:reviewedBy <http://example.org/research/author/2116718>,
         <http://example.org/research/author/40231586>,
         <http://example.org/research/author/51417783> ;
@@ -3325,7 +3325,7 @@ In this paper, we introduce a new distributed graph database, called Weaver, whi
         <http://example.org/research/paper/febbe50d95e27e99c46a0d431dffd371203e57a4>,
         <http://example.org/research/paper/ff29c696e8c9c2ea67c034eafc7017839869749b>,
         <http://example.org/research/paper/ff5280195436b9f48ed49984a1cada7adee5ea82> ;
-    ex:hasAuthor <http://example.org/research/author/2772109> ;
+    ex:hasCorrespondingAuthor <http://example.org/research/author/2772109> ;
     ex:publishedIn <http://example.org/research/proceedings/66257d67-2035-4ff6-b62a-4099db02fcde-2018> ;
     ex:reviewedBy <http://example.org/research/author/151167094>,
         <http://example.org/research/author/152781515>,
@@ -3353,10 +3353,10 @@ In this paper, we introduce a new distributed graph database, called Weaver, whi
         <http://example.org/research/paper/dc7f319316187a0efd45915c87ed7b0158a57c06>,
         <http://example.org/research/paper/e67a2817089312746d69b38ce9abfdc4b1bc69c3>,
         <http://example.org/research/paper/e9b86ce5d65b75ea527f6a0a24c8ecace0b76aac> ;
-    ex:hasAuthor <http://example.org/research/author/150358651>,
+    ex:hasCoAuthor <http://example.org/research/author/150358651>,
         <http://example.org/research/author/19262604>,
-        <http://example.org/research/author/2115256817>,
         <http://example.org/research/author/2873542> ;
+    ex:hasCorrespondingAuthor <http://example.org/research/author/2115256817> ;
     ex:publishedIn <http://example.org/research/proceedings/3e22d1e0-9b11-40a4-ac7c-0ebe5825316e-2020> ;
     ex:reviewedBy <http://example.org/research/author/1709661>,
         <http://example.org/research/author/1739380877>,
@@ -3387,13 +3387,13 @@ In this paper, we introduce a new distributed graph database, called Weaver, whi
         <http://example.org/research/paper/c4cbb28e7f07545f028da6ff0672959892ba9960>,
         <http://example.org/research/paper/cd4b2913df40fc717cb97f94e4d427911f6a2312>,
         <http://example.org/research/paper/f07ad5fbe8d2dd73cc02d9dbb7cec5c924bd1547> ;
-    ex:hasAuthor <http://example.org/research/author/2005442184>,
-        <http://example.org/research/author/2116718>,
+    ex:hasCoAuthor <http://example.org/research/author/2005442184>,
         <http://example.org/research/author/2123810691>,
         <http://example.org/research/author/2126581481>,
         <http://example.org/research/author/2126602785>,
         <http://example.org/research/author/51386512> ;
-    ex:publishedIn <http://example.org/research/volume/c25754e3-36a9-4adb-a390-58907c897425-2> ;
+    ex:hasCorrespondingAuthor <http://example.org/research/author/2116718> ;
+    ex:publishedIn <http://example.org/research/volume/41c3b19b-0bac-418a-89dc-2fa894c12fef-2020-14> ;
     ex:reviewedBy <http://example.org/research/author/101108644>,
         <http://example.org/research/author/1906960>,
         <http://example.org/research/author/2057038192>,
@@ -3422,9 +3422,9 @@ In this paper, we introduce a new distributed graph database, called Weaver, whi
         <http://example.org/research/paper/f1b8cfd67913b606ce0805432db343543ffe5cbb>,
         <http://example.org/research/paper/f5b56733193ebea900275584da01b7b94b8f0416>,
         <http://example.org/research/paper/fac02321d6f68176a0b518f25febf85d06f2c236> ;
-    ex:hasAuthor <http://example.org/research/author/144615268>,
-        <http://example.org/research/author/2140474907> ;
-    ex:publishedIn <http://example.org/research/volume/c25754e3-36a9-4adb-a390-58907c897425-2> ;
+    ex:hasCoAuthor <http://example.org/research/author/2140474907> ;
+    ex:hasCorrespondingAuthor <http://example.org/research/author/144615268> ;
+    ex:publishedIn <http://example.org/research/volume/f1d0ef3d-4e90-41e9-b454-f589a933654f-2022-26> ;
     ex:reviewedBy <http://example.org/research/author/2873542>,
         <http://example.org/research/author/3090789>,
         <http://example.org/research/author/38319925>,
@@ -3501,98 +3501,6 @@ In this paper, we introduce a new distributed graph database, called Weaver, whi
 
 <http://example.org/research/venue/f1ab8d75-7f15-4bb4-ad88-e834ec6ed604> a ex:Conference ;
     ex:name "International Conference on Blockchain"^^xsd:string .
-
-<http://example.org/research/volume/0aed7a40-85f3-4c66-9e1b-c1556c57001b-13> a ex:Volume ;
-    ex:hasVolumeNumber "13"^^xsd:string ;
-    ex:heldInYear "2018"^^xsd:gYear .
-
-<http://example.org/research/volume/1de6e987-7434-4277-b939-ccb29843e936-15> a ex:Volume ;
-    ex:hasVolumeNumber "15"^^xsd:string ;
-    ex:heldInYear "2017"^^xsd:gYear .
-
-<http://example.org/research/volume/3215af4b-a40f-474d-bc19-27c154ff31a3-2018> a ex:Volume ;
-    ex:hasVolumeNumber "2018"^^xsd:string ;
-    ex:heldInYear "2018"^^xsd:gYear .
-
-<http://example.org/research/volume/396366a4-a1ba-422b-a9ff-1471ee08eab8-24> a ex:Volume ;
-    ex:hasVolumeNumber "24"^^xsd:string ;
-    ex:heldInYear "2019"^^xsd:gYear .
-
-<http://example.org/research/volume/41c3b19b-0bac-418a-89dc-2fa894c12fef-14> a ex:Volume ;
-    ex:hasVolumeNumber "14"^^xsd:string ;
-    ex:heldInYear "2020"^^xsd:gYear .
-
-<http://example.org/research/volume/4cbc2987-6254-4668-b85b-aeabd7ff62ef-2> a ex:Volume ;
-    ex:hasVolumeNumber "2"^^xsd:string ;
-    ex:heldInYear "2022"^^xsd:gYear .
-
-<http://example.org/research/volume/4cce60a8-2106-4240-bece-fb6488df6bd1-60-14> a ex:Volume ;
-    ex:hasVolumeNumber "60 14"^^xsd:string ;
-    ex:heldInYear "2017"^^xsd:gYear .
-
-<http://example.org/research/volume/7959fdab-81a2-4da4-8f2a-bd5855de5c6e-12> a ex:Volume ;
-    ex:hasVolumeNumber "12"^^xsd:string ;
-    ex:heldInYear "2018"^^xsd:gYear .
-
-<http://example.org/research/volume/7e0547d5-ec21-470f-bdc9-b7615fc83a29-4> a ex:Volume ;
-    ex:hasVolumeNumber "4"^^xsd:string ;
-    ex:heldInYear "2019"^^xsd:gYear .
-
-<http://example.org/research/volume/9bc76c9a-64ac-4dd9-902e-80fccca1833f-46> a ex:Volume ;
-    ex:hasVolumeNumber "46"^^xsd:string ;
-    ex:heldInYear "2021"^^xsd:gYear .
-
-<http://example.org/research/volume/bb899a20-6789-46e4-9ed0-c7c284028fd9-9> a ex:Volume ;
-    ex:hasVolumeNumber "9"^^xsd:string ;
-    ex:heldInYear "2021"^^xsd:gYear .
-
-<http://example.org/research/volume/bc01813d-0622-430d-a5f1-416b7332b85e-10> a ex:Volume ;
-    ex:hasVolumeNumber "10"^^xsd:string ;
-    ex:heldInYear "2017"^^xsd:gYear .
-
-<http://example.org/research/volume/c6840156-ee10-4d78-8832-7f8909811576-27> a ex:Volume ;
-    ex:hasVolumeNumber "27"^^xsd:string ;
-    ex:heldInYear "2015"^^xsd:gYear .
-
-<http://example.org/research/volume/ceac6326-95ad-4e90-a522-b7ab052ea5a4-33> a ex:Volume ;
-    ex:hasVolumeNumber "33"^^xsd:string ;
-    ex:heldInYear "2015"^^xsd:gYear .
-
-<http://example.org/research/volume/d029f971-f74c-41ca-8373-1b713414c797-22> a ex:Volume ;
-    ex:hasVolumeNumber "22"^^xsd:string ;
-    ex:heldInYear "2021"^^xsd:gYear .
-
-<http://example.org/research/volume/dbbda9ef-0504-4875-b893-5c964f6b8f0e-32> a ex:Volume ;
-    ex:hasVolumeNumber "32"^^xsd:string ;
-    ex:heldInYear "2017"^^xsd:gYear .
-
-<http://example.org/research/volume/f1d0ef3d-4e90-41e9-b454-f589a933654f-26> a ex:Volume ;
-    ex:hasVolumeNumber "26"^^xsd:string ;
-    ex:heldInYear "2022"^^xsd:gYear .
-
-<http://example.org/research/volume/f80a2e54-1332-48bf-9634-4b2f77fca809-5> a ex:Volume ;
-    ex:hasVolumeNumber "5"^^xsd:string ;
-    ex:heldInYear "2023"^^xsd:gYear .
-
-<http://example.org/research/volume/fcbcaf18-8ab1-43e1-a973-604bbc7e344e-12> a ex:Volume ;
-    ex:hasVolumeNumber "12"^^xsd:string ;
-    ex:heldInYear "2018"^^xsd:gYear .
-
-<http://example.org/research/volume/fcbcaf18-8ab1-43e1-a973-604bbc7e344e-14> a ex:Volume ;
-    ex:hasVolumeNumber "14"^^xsd:string ;
-    ex:heldInYear "2021"^^xsd:gYear .
-
-<http://example.org/research/volume/fcbcaf18-8ab1-43e1-a973-604bbc7e344e-15> a ex:Volume ;
-    ex:hasVolumeNumber "15"^^xsd:string ;
-    ex:heldInYear "2022"^^xsd:gYear .
-
-<http://example.org/research/volume/fcbcaf18-8ab1-43e1-a973-604bbc7e344e-16> a ex:Volume ;
-    ex:hasVolumeNumber "16"^^xsd:string ;
-    ex:heldInYear "2023"^^xsd:gYear .
-
-<http://example.org/research/volume/fcbcaf18-8ab1-43e1-a973-604bbc7e344e-9> a ex:Volume ;
-    ex:hasVolumeNumber "9"^^xsd:string ;
-    ex:heldInYear "2015"^^xsd:gYear .
 
 <http://example.org/research/author/101108644> a ex:Author ;
     ex:name "Hongyun Yao"^^xsd:string ;
@@ -3976,8 +3884,8 @@ In this paper, we introduce a new distributed graph database, called Weaver, whi
         <http://example.org/research/paper/db0b44855b14533a22dbbd09f24f62a08cedef80>,
         <http://example.org/research/paper/e2a38be3e19118c38070db1031825307cf38e532>,
         <http://example.org/research/paper/f3b0ca9d0c420e6c6bc24a5e9dd959e8c899b38e> ;
-    ex:hasAuthor <http://example.org/research/author/1781993>,
-        <http://example.org/research/author/2973714> ;
+    ex:hasCoAuthor <http://example.org/research/author/1781993> ;
+    ex:hasCorrespondingAuthor <http://example.org/research/author/2973714> ;
     ex:publishedIn <http://example.org/research/proceedings/a2802f40-c210-444a-92bf-62245b599bb1-2016> ;
     ex:reviewedBy <http://example.org/research/author/1483744000>,
         <http://example.org/research/author/2109512262>,
@@ -4008,12 +3916,12 @@ In this paper, we introduce a new distributed graph database, called Weaver, whi
         <http://example.org/research/paper/a111838454744487403944d5097ecd3400b061d9>,
         <http://example.org/research/paper/ae2bfdc67eb6ce3cc7a2e6310d263d15e31d1cb3>,
         <http://example.org/research/paper/d0ab8b30d8fa69e4cd5ef070a40e8dac9502e78b> ;
-    ex:hasAuthor <http://example.org/research/author/1739380877>,
+    ex:hasCoAuthor <http://example.org/research/author/1739380877>,
         <http://example.org/research/author/2087912383>,
         <http://example.org/research/author/2152802371>,
-        <http://example.org/research/author/2153953921>,
-        <http://example.org/research/author/2599800> ;
-    ex:publishedIn <http://example.org/research/volume/c25754e3-36a9-4adb-a390-58907c897425-2> ;
+        <http://example.org/research/author/2153953921> ;
+    ex:hasCorrespondingAuthor <http://example.org/research/author/2599800> ;
+    ex:publishedIn <http://example.org/research/volume/3215af4b-a40f-474d-bc19-27c154ff31a3-2018-2018> ;
     ex:reviewedBy <http://example.org/research/author/144589756>,
         <http://example.org/research/author/145104321>,
         <http://example.org/research/author/1490915504>,
@@ -4042,13 +3950,13 @@ In this paper, we introduce a new distributed graph database, called Weaver, whi
         <http://example.org/research/paper/c8376be6e5d269467545de4edffe06bb2b74b1c7>,
         <http://example.org/research/paper/dce7daf3d485e83ae503cfa60e7a0ccce994a764>,
         <http://example.org/research/paper/e54a5920715b453038a64e65a8c06fa4ce1199db> ;
-    ex:hasAuthor <http://example.org/research/author/144281339>,
+    ex:hasCoAuthor <http://example.org/research/author/144281339>,
         <http://example.org/research/author/2057038192>,
         <http://example.org/research/author/2118207557>,
-        <http://example.org/research/author/2171106811>,
         <http://example.org/research/author/31131132>,
         <http://example.org/research/author/49661434>,
         <http://example.org/research/author/5779643> ;
+    ex:hasCorrespondingAuthor <http://example.org/research/author/2171106811> ;
     ex:publishedIn <http://example.org/research/proceedings/289bfdda-eab3-4c9a-97be-ef1e0f9ddfc0-2023> ;
     ex:reviewedBy <http://example.org/research/author/121865955>,
         <http://example.org/research/author/144544723>,
@@ -4106,6 +4014,94 @@ In this paper, we introduce a new distributed graph database, called Weaver, whi
 
 <http://example.org/research/venue/289bfdda-eab3-4c9a-97be-ef1e0f9ddfc0> a ex:Conference ;
     ex:name "International Symposium on Software Testing and Analysis"^^xsd:string .
+
+<http://example.org/research/volume/0aed7a40-85f3-4c66-9e1b-c1556c57001b-2018-13> a ex:Volume ;
+    ex:hasVolumeNumber "13"^^xsd:string ;
+    ex:heldInYear "2018"^^xsd:gYear .
+
+<http://example.org/research/volume/1de6e987-7434-4277-b939-ccb29843e936-2017-15> a ex:Volume ;
+    ex:hasVolumeNumber "15"^^xsd:string ;
+    ex:heldInYear "2017"^^xsd:gYear .
+
+<http://example.org/research/volume/3215af4b-a40f-474d-bc19-27c154ff31a3-2018-2018> a ex:Volume ;
+    ex:hasVolumeNumber "2018"^^xsd:string ;
+    ex:heldInYear "2018"^^xsd:gYear .
+
+<http://example.org/research/volume/396366a4-a1ba-422b-a9ff-1471ee08eab8-2019-24> a ex:Volume ;
+    ex:hasVolumeNumber "24"^^xsd:string ;
+    ex:heldInYear "2019"^^xsd:gYear .
+
+<http://example.org/research/volume/41c3b19b-0bac-418a-89dc-2fa894c12fef-2020-14> a ex:Volume ;
+    ex:hasVolumeNumber "14"^^xsd:string ;
+    ex:heldInYear "2020"^^xsd:gYear .
+
+<http://example.org/research/volume/4cbc2987-6254-4668-b85b-aeabd7ff62ef-2022-2> a ex:Volume ;
+    ex:hasVolumeNumber "2"^^xsd:string ;
+    ex:heldInYear "2022"^^xsd:gYear .
+
+<http://example.org/research/volume/4cce60a8-2106-4240-bece-fb6488df6bd1-2017-60-14> a ex:Volume ;
+    ex:hasVolumeNumber "60 14"^^xsd:string ;
+    ex:heldInYear "2017"^^xsd:gYear .
+
+<http://example.org/research/volume/7959fdab-81a2-4da4-8f2a-bd5855de5c6e-2018-12> a ex:Volume ;
+    ex:hasVolumeNumber "12"^^xsd:string ;
+    ex:heldInYear "2018"^^xsd:gYear .
+
+<http://example.org/research/volume/7e0547d5-ec21-470f-bdc9-b7615fc83a29-2019-4> a ex:Volume ;
+    ex:hasVolumeNumber "4"^^xsd:string ;
+    ex:heldInYear "2019"^^xsd:gYear .
+
+<http://example.org/research/volume/9bc76c9a-64ac-4dd9-902e-80fccca1833f-2021-46> a ex:Volume ;
+    ex:hasVolumeNumber "46"^^xsd:string ;
+    ex:heldInYear "2021"^^xsd:gYear .
+
+<http://example.org/research/volume/bb899a20-6789-46e4-9ed0-c7c284028fd9-2021-9> a ex:Volume ;
+    ex:hasVolumeNumber "9"^^xsd:string ;
+    ex:heldInYear "2021"^^xsd:gYear .
+
+<http://example.org/research/volume/bc01813d-0622-430d-a5f1-416b7332b85e-2017-10> a ex:Volume ;
+    ex:hasVolumeNumber "10"^^xsd:string ;
+    ex:heldInYear "2017"^^xsd:gYear .
+
+<http://example.org/research/volume/c6840156-ee10-4d78-8832-7f8909811576-2015-27> a ex:Volume ;
+    ex:hasVolumeNumber "27"^^xsd:string ;
+    ex:heldInYear "2015"^^xsd:gYear .
+
+<http://example.org/research/volume/ceac6326-95ad-4e90-a522-b7ab052ea5a4-2015-33> a ex:Volume ;
+    ex:hasVolumeNumber "33"^^xsd:string ;
+    ex:heldInYear "2015"^^xsd:gYear .
+
+<http://example.org/research/volume/d029f971-f74c-41ca-8373-1b713414c797-2021-22> a ex:Volume ;
+    ex:hasVolumeNumber "22"^^xsd:string ;
+    ex:heldInYear "2021"^^xsd:gYear .
+
+<http://example.org/research/volume/dbbda9ef-0504-4875-b893-5c964f6b8f0e-2017-32> a ex:Volume ;
+    ex:hasVolumeNumber "32"^^xsd:string ;
+    ex:heldInYear "2017"^^xsd:gYear .
+
+<http://example.org/research/volume/f1d0ef3d-4e90-41e9-b454-f589a933654f-2022-26> a ex:Volume ;
+    ex:hasVolumeNumber "26"^^xsd:string ;
+    ex:heldInYear "2022"^^xsd:gYear .
+
+<http://example.org/research/volume/f80a2e54-1332-48bf-9634-4b2f77fca809-2023-5> a ex:Volume ;
+    ex:hasVolumeNumber "5"^^xsd:string ;
+    ex:heldInYear "2023"^^xsd:gYear .
+
+<http://example.org/research/volume/fcbcaf18-8ab1-43e1-a973-604bbc7e344e-2015-9> a ex:Volume ;
+    ex:hasVolumeNumber "9"^^xsd:string ;
+    ex:heldInYear "2015"^^xsd:gYear .
+
+<http://example.org/research/volume/fcbcaf18-8ab1-43e1-a973-604bbc7e344e-2018-12> a ex:Volume ;
+    ex:hasVolumeNumber "12"^^xsd:string ;
+    ex:heldInYear "2018"^^xsd:gYear .
+
+<http://example.org/research/volume/fcbcaf18-8ab1-43e1-a973-604bbc7e344e-2021-14> a ex:Volume ;
+    ex:hasVolumeNumber "14"^^xsd:string ;
+    ex:heldInYear "2021"^^xsd:gYear .
+
+<http://example.org/research/volume/fcbcaf18-8ab1-43e1-a973-604bbc7e344e-2023-16> a ex:Volume ;
+    ex:hasVolumeNumber "16"^^xsd:string ;
+    ex:heldInYear "2023"^^xsd:gYear .
 
 <http://example.org/research/author/121865955> a ex:Author ;
     ex:name "Guangyi Liu"^^xsd:string ;
@@ -4294,10 +4290,10 @@ In this paper, we introduce a new distributed graph database, called Weaver, whi
         <http://example.org/research/paper/d933042eb3c2a8f2e208515490d6b6a400e00fec>,
         <http://example.org/research/paper/dce7daf3d485e83ae503cfa60e7a0ccce994a764>,
         <http://example.org/research/paper/e54a5920715b453038a64e65a8c06fa4ce1199db> ;
-    ex:hasAuthor <http://example.org/research/author/1625425838>,
-        <http://example.org/research/author/1663632797>,
+    ex:hasCoAuthor <http://example.org/research/author/1625425838>,
         <http://example.org/research/author/2280834096>,
         <http://example.org/research/author/38319925> ;
+    ex:hasCorrespondingAuthor <http://example.org/research/author/1663632797> ;
     ex:publishedIn <http://example.org/research/proceedings/289bfdda-eab3-4c9a-97be-ef1e0f9ddfc0-2023> ;
     ex:reviewedBy <http://example.org/research/author/2055223031>,
         <http://example.org/research/author/2112638989>,
@@ -4332,7 +4328,7 @@ In this paper, we introduce a new distributed graph database, called Weaver, whi
         <http://example.org/research/paper/ec0612038171abd57baa6162c3b36c529e116d41>,
         <http://example.org/research/paper/fd7ec0db54641503cbf1b822a75d96fc961861e9>,
         <http://example.org/research/paper/fe6355752ac8cfd0b80c86201fefb9f8eefcd7b2> ;
-    ex:hasAuthor <http://example.org/research/author/113398129>,
+    ex:hasCoAuthor <http://example.org/research/author/113398129>,
         <http://example.org/research/author/123816348>,
         <http://example.org/research/author/1490915504>,
         <http://example.org/research/author/2088215217>,
@@ -4344,7 +4340,6 @@ In this paper, we introduce a new distributed graph database, called Weaver, whi
         <http://example.org/research/author/2116124684>,
         <http://example.org/research/author/2116502347>,
         <http://example.org/research/author/2144671306>,
-        <http://example.org/research/author/2145413970>,
         <http://example.org/research/author/2145763285>,
         <http://example.org/research/author/2153604994>,
         <http://example.org/research/author/2157513188>,
@@ -4358,7 +4353,8 @@ In this paper, we introduce a new distributed graph database, called Weaver, whi
         <http://example.org/research/author/32058742>,
         <http://example.org/research/author/46255707>,
         <http://example.org/research/author/50841357> ;
-    ex:publishedIn <http://example.org/research/volume/c25754e3-36a9-4adb-a390-58907c897425-2> ;
+    ex:hasCorrespondingAuthor <http://example.org/research/author/2145413970> ;
+    ex:publishedIn <http://example.org/research/volume/fcbcaf18-8ab1-43e1-a973-604bbc7e344e-2022-15> ;
     ex:reviewedBy <http://example.org/research/author/1739380877>,
         <http://example.org/research/author/1906960>,
         <http://example.org/research/author/2057038192>,
@@ -4402,15 +4398,15 @@ In this paper, we introduce a new distributed graph database, called Weaver, whi
         <http://example.org/research/paper/dce7daf3d485e83ae503cfa60e7a0ccce994a764>,
         <http://example.org/research/paper/e54a5920715b453038a64e65a8c06fa4ce1199db>,
         <http://example.org/research/paper/fe06e668ed3bbb17866cfce3658bb30532e7186b> ;
-    ex:hasAuthor <http://example.org/research/author/134898163>,
+    ex:hasCoAuthor <http://example.org/research/author/134898163>,
         <http://example.org/research/author/144525882>,
         <http://example.org/research/author/2093481779>,
         <http://example.org/research/author/2118120527>,
         <http://example.org/research/author/2131285720>,
         <http://example.org/research/author/2152692124>,
-        <http://example.org/research/author/2158585032>,
         <http://example.org/research/author/2964640>,
         <http://example.org/research/author/40231586> ;
+    ex:hasCorrespondingAuthor <http://example.org/research/author/2158585032> ;
     ex:publishedIn <http://example.org/research/proceedings/289bfdda-eab3-4c9a-97be-ef1e0f9ddfc0-2022> ;
     ex:reviewedBy <http://example.org/research/author/2140474907>,
         <http://example.org/research/author/2735649>,
@@ -4422,6 +4418,10 @@ In this paper, we introduce a new distributed graph database, called Weaver, whi
 <http://example.org/research/proceedings/289bfdda-eab3-4c9a-97be-ef1e0f9ddfc0-2023> a ex:Publication .
 
 <http://example.org/research/proceedings/c25754e3-36a9-4adb-a390-58907c897425-2013> a ex:Publication .
+
+<http://example.org/research/volume/fcbcaf18-8ab1-43e1-a973-604bbc7e344e-2022-15> a ex:Volume ;
+    ex:hasVolumeNumber "15"^^xsd:string ;
+    ex:heldInYear "2022"^^xsd:gYear .
 
 <http://example.org/research/author/153314895> a ex:Author ;
     ex:name "Mei Chen"^^xsd:string ;
@@ -4515,14 +4515,14 @@ In this paper, we introduce a new distributed graph database, called Weaver, whi
         <http://example.org/research/paper/e8eed598c2a7e3a78c44add15c8585c7e2d26072>,
         <http://example.org/research/paper/ee59e551784950560af0088a50c84df4d8428890>,
         <http://example.org/research/paper/f926c172e3c1111430d56456c6ee941c193f22f9> ;
-    ex:hasAuthor <http://example.org/research/author/2108844303>,
-        <http://example.org/research/author/2115219530>,
+    ex:hasCoAuthor <http://example.org/research/author/2115219530>,
         <http://example.org/research/author/2116502347>,
         <http://example.org/research/author/2145413970>,
         <http://example.org/research/author/2150609388>,
         <http://example.org/research/author/2151811827>,
         <http://example.org/research/author/72117196> ;
-    ex:publishedIn <http://example.org/research/volume/c25754e3-36a9-4adb-a390-58907c897425-2> ;
+    ex:hasCorrespondingAuthor <http://example.org/research/author/2108844303> ;
+    ex:publishedIn <http://example.org/research/volume/fcbcaf18-8ab1-43e1-a973-604bbc7e344e-2022-15> ;
     ex:reviewedBy <http://example.org/research/author/115694632>,
         <http://example.org/research/author/134898163>,
         <http://example.org/research/author/2108966388>,

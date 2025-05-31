@@ -39,7 +39,6 @@ properties = {
     "writes": ("Author", "Paper"),
     "hasCorrespondingAuthor": ("Paper", "Author"),
     "hasCoAuthor": ("Paper", "Author"),
-    "hasAuthor": ("Paper", "Author"),
     "reviewedBy": ("Paper", "Reviewer"),
     "cites": ("Paper", "Paper"),
     "publishedIn": ("Paper", "Publication"), 
@@ -55,9 +54,7 @@ properties = {
     "title": ("Paper", None),
     "abstract": ("Paper", None),
     "citationCount": ("Paper", None),
-    "influentialCitations": ("Paper", None),
     "year": ("Paper", None),
-    "affiliatedWith": ("Author", None)
 }
 
 for prop, (domain, range_) in properties.items():

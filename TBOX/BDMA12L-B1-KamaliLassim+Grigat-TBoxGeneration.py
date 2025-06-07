@@ -1,4 +1,4 @@
-from rdflib import Graph, Namespace, RDF, RDFS
+from rdflib import Graph, Namespace, RDF, RDFS, OWL
 
 # Define namespace
 EX = Namespace("http://example.org/research/")
@@ -77,6 +77,24 @@ for prop, (domain, range_) in properties.items():
         else:
             g.add((prop_uri, RDFS.range, EX[range_]))
 
+
+
+# Additional OWL Constraints
+
+# Functional Property: Each paper has exactly one corresponding author
+g.add((EX["hasCorrespondingAuthor"], RDF.type, OWL.FunctionalProperty))
+
+# Make the Reviwe relation an inverse Property: reviewedBy goes with reviews
+g.add((EX["reviewedBy"], OWL.inverseOf, EX["reviews"]))
+g.add((EX["reviews"], RDF.type, RDF.Property))
+
+#Including a citation influence transitivity here:
+# Transitive property for indirect citation reasoning
+g.add((EX["hasIndirectCitation"], RDF.type, RDF.Property))
+g.add((EX["hasIndirectCitation"], RDF.type, OWL.TransitiveProperty))
+g.add((EX["hasIndirectCitation"], RDFS.domain, EX["Paper"]))
+g.add((EX["hasIndirectCitation"], RDFS.range, EX["Paper"]))
+
 # Save TBox
-g.serialize("tbox_final.ttl", format="turtle")
-print("TBox saved as 'tbox_final.ttl'")
+g.serialize("TBOX/BDMA12L-B1-KamaliLassim+Grigat-tbox.ttl", format="turtle")
+print("BDMA12L-B1-KamaliLassim+Grigat-tbox.ttl")

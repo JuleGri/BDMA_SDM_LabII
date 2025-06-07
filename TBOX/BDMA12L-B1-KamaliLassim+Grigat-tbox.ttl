@@ -1,4 +1,5 @@
 @prefix ex: <http://example.org/research/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
@@ -49,9 +50,15 @@ ex:hasCoAuthor a rdf:Property ;
     rdfs:domain ex:Paper ;
     rdfs:range ex:Author .
 
-ex:hasCorrespondingAuthor a rdf:Property ;
+ex:hasCorrespondingAuthor a rdf:Property,
+        owl:FunctionalProperty ;
     rdfs:domain ex:Paper ;
     rdfs:range ex:Author .
+
+ex:hasIndirectCitation a rdf:Property,
+        owl:TransitiveProperty ;
+    rdfs:domain ex:Paper ;
+    rdfs:range ex:Paper .
 
 ex:hasProceedings a rdf:Property ;
     rdfs:domain ex:Edition ;
@@ -86,7 +93,8 @@ ex:publishedIn a rdf:Property ;
 
 ex:reviewedBy a rdf:Property ;
     rdfs:domain ex:Paper ;
-    rdfs:range ex:Reviewer .
+    rdfs:range ex:Reviewer ;
+    owl:inverseOf ex:reviews .
 
 ex:title a rdf:Property ;
     rdfs:domain ex:Paper .
@@ -97,4 +105,6 @@ ex:writes a rdf:Property ;
 
 ex:year a rdf:Property ;
     rdfs:domain ex:Paper .
+
+ex:reviews a rdf:Property .
 

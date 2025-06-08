@@ -1,0 +1,9 @@
+authorName,paperTitle,indirectInfluence,venueType
+C. Cattuto,Time-varying social networks in a graph database: a Neo4j use case,63,http://example.org/research/Workshop
+Ran Wang,An Empirical Study on Recent Graph Database Systems,39,http://example.org/research/Conference
+Yingying Zheng,Finding bugs in Gremlin-based graph database systems via Randomized differential testing,28,http://example.org/research/Conference
+Sakshi Srivastava,Fraud detection in the distributed graph database,25,http://example.org/research/Journal
+B. Kan,Topology Modeling and Analysis of a Power Grid Network Using a Graph Database,20,http://example.org/research/Journal
+Zhisong Fu,GeaBase: A High-Performance Distributed Graph Database for Industry-Scale Applications,14,http://example.org/research/Conference
+Byoung-Ha Yoon,Use of Graph Database for the Integration of Heterogeneous Biological Data,12,http://example.org/research/Journal
+Konstantinos Semertzidis,Time Traveling in Graphs using a Graph Database,9,http://example.org/research/Workshop

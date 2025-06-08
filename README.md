@@ -1,1 +1,3 @@
-# DBPedia_Exploration
+# Semantics Part II
+Since there was no explicit requirement to create a README-File, there won't be an explicit guideline to implement the Knowledgegraph resulting from the tboc.ttl and abox.ttl files in this project folder. 
+With a set up an licensed version of GraphDB on the localhost, the uploaded the two rdf files into the same repsoritory and an activated inference should be sufficient to run the Queries provided in the Report. 
